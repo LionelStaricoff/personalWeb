@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Press+Start+2P&display=swap');
+
+
+:root {
+    --colorLetra: black;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lumanosimo, Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, blue, green) no-repeat;
+
+    header {
+        width: 100vw;
+        height: 20vh;
+        display: grid;
+        place-items: center;
+        grid-template-columns: auto auto;
+
+
+        div {
+            height: 6em;
+            width: 6em;
+            background-image: url('img/icons.png');
+            background-repeat: no-repeat;
+            background-size: 1100%;
+            background-position: -269px 0px;
+            transition: transform .5s;
+            justify-self: self-end;
+            /* background-position: -156px 12px; github */
+            filter: drop-shadow(0 0 5px yellow) drop-shadow(0 0 10px yellow);
+
+            &:hover {
+                transform: scale(.8);
+                filter: drop-shadow(0 0 10px yellow) drop-shadow(0 0 20px yellow);
+
+            }
+        }
+
+        h1 {
+            font-size: 1.7em;
+            font-weight: bolder;
+            justify-self: self-start;
+            text-shadow: 3px 3px 3px black;
+        }
+    }
+}
