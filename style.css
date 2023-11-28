@@ -34,8 +34,12 @@ body {
             background-position: -269px 0px;
             transition: transform .5s;
             justify-self: self-end;
+            position: relative;
             /* background-position: -156px 12px; github */
             filter: drop-shadow(0 0 5px yellow) drop-shadow(0 0 10px yellow);
+
+
+
 
             &:hover {
                 transform: scale(.8);
@@ -45,10 +49,85 @@ body {
         }
 
         h1 {
-            font-size: 1.7em;
+            font-size: min(1.5em, 2em);
             font-weight: bolder;
             justify-self: self-start;
             text-shadow: 3px 3px 3px black;
         }
     }
+
+
+    main {
+        display: grid;
+        place-items: center;
+
+        .card {
+            width: min(100%, 40em);
+            height: 75vh;
+            background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            display: grid;
+            padding: 10px;
+            grid-template-areas:
+                'foto  texto'
+                'foto  texto'
+                'foto  texto'
+                'iconos iconos';
+            color: var(--colorLetra);
+
+            div:first-child {
+                background-color: black;
+                grid-area: foto;
+            }
+
+            div:nth-child(2) {
+                background-color: rgb(254, 239, 239);
+                grid-area: texto;
+            }
+
+            div:last-child {
+                background-color: rgb(255, 2, 2);
+                grid-area: iconos;
+            }
+        }
+    }
+
+
+
+    footer {
+        height: 5vh;
+        display: grid;
+        place-items: center;
+        color: var(--colorLetra);
+    }
 }
+
+
+
+
+/*animacion de la sombra
+
+
+&::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 30px);
+    left: calc(50% - 25px);
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 26, 0.16);
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        box-shadow: 0 -20px 20px rgba(0, 0, 0, 0.5);
+        transform: rotate(360deg);
+    }
+}
+*/
