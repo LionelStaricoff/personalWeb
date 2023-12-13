@@ -19,7 +19,7 @@ body {
 
     header {
         width: 100vw;
-        height: 20vh;
+        min-height: 20vh;
         display: grid;
         place-items: center;
         grid-template-columns: auto auto;
@@ -63,8 +63,15 @@ body {
 
         .card {
             width: min(100%, 40em);
-            height: 75vh;
-            background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            min-height: 75vh;
+            margin: 2em 0;
+            border: 5px solid rgb(0, 255, 255);
+            border-bottom: 5px solid rgb(238, 129, 238);
+            box-shadow: -10px -10px 9px 0px aqua,
+                10px -10px 9px 0px #87cefa,
+                -10px 10px 9px 5px violet,
+                10px -10px -9px -5px violet;
+
             display: grid;
             padding: 10px;
             grid-template-areas:
@@ -75,18 +82,27 @@ body {
             color: var(--colorLetra);
 
             div:first-child {
-                background-color: black;
+                width: 8em;
+                background-image: url('img/fotoPersonal.png');
+                background-repeat: no-repeat;
+                background-size: 215%;
+                background-position: -10px 0px;
                 grid-area: foto;
+
+
             }
 
             div:nth-child(2) {
                 background-color: rgb(254, 239, 239);
                 grid-area: texto;
+                background-color: inherit;
+
             }
 
             div:last-child {
                 background-color: rgb(255, 2, 2);
                 grid-area: iconos;
+                height: 3em;
             }
         }
     }
@@ -94,10 +110,11 @@ body {
 
 
     footer {
-        height: 5vh;
+        min-height: 5vh;
         display: grid;
         place-items: center;
         color: var(--colorLetra);
+
     }
 }
 
