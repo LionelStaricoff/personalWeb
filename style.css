@@ -2,7 +2,7 @@
 
 
 :root {
-    --colorLetra: black;
+    --colorLetra: white;
 }
 
 
@@ -23,7 +23,7 @@ body {
         display: grid;
         place-items: center;
         grid-template-columns: auto auto;
-
+        color: var(--colorLetra);
 
         div {
             height: 6em;
@@ -67,10 +67,7 @@ body {
             margin: 2em 0;
             border: 5px solid rgb(0, 255, 255);
             border-bottom: 5px solid rgb(238, 129, 238);
-            box-shadow: -10px -10px 9px 0px aqua,
-                10px -10px 9px 0px #87cefa,
-                -10px 10px 9px 5px violet,
-                10px -10px -9px -5px violet;
+
 
             display: grid;
             padding: 10px;
@@ -86,8 +83,9 @@ body {
                 background-image: url('img/fotoPersonal.png');
                 background-repeat: no-repeat;
                 background-size: 215%;
-                background-position: -10px 0px;
+                background-position: -10px center;
                 grid-area: foto;
+                margin-right: .5em;
 
 
             }
@@ -96,13 +94,45 @@ body {
                 background-color: rgb(254, 239, 239);
                 grid-area: texto;
                 background-color: inherit;
+                display: grid;
+                place-items: center;
 
+                p {
+                    /* text-wrap: balance; */
+                    hyphens: auto;
+                }
             }
 
             div:last-child {
                 background-color: rgb(255, 2, 2);
                 grid-area: iconos;
                 height: 3em;
+
+                ul {
+                    display: grid;
+                    place-items: center;
+                    grid-template-columns: repeat(5, 1fr);
+                    text-decoration: none;
+                    list-style-type: none;
+
+                    li {
+                        height: 2.5em;
+                        width: 2.5em;
+                        background-repeat: no-repeat;
+                        background-size: 1100%;
+                        background-image: url('img/icons.png');
+
+                    }
+
+                    li:first-child {
+                        background-position: -31px 1px;
+                        content: 'webs'; 
+                        &:hover{
+                            background-position: -31px -44px;
+
+                        }
+                    }
+                }
             }
         }
     }
