@@ -97,7 +97,6 @@ body {
                 place-items: center;
 
                 p {
-                    /* text-wrap: balance; */
                     hyphens: auto;
                 }
             }
@@ -119,7 +118,7 @@ body {
                         background-repeat: no-repeat;
                         background-size: 1100%;
                         background-image: url('img/icons.png');
-
+                        margin-top: .5em;
                     }
 
                     li:first-child {
@@ -139,8 +138,9 @@ body {
                             background-position: -151px -44px;
 
                         }
-                    
+
                     }
+
                     li:nth-child(3) {
                         background-position: -275px 1px;
                         content: 'Curriculum';
@@ -150,6 +150,7 @@ body {
 
                         }
                     }
+
                     li:nth-child(4) {
                         background-position: -75px 1px;
                         content: 'Github';
@@ -159,6 +160,7 @@ body {
 
                         }
                     }
+
                     li:nth-child(5) {
                         background-position: -191px 1px;
                         content: 'Clases';
@@ -168,6 +170,7 @@ body {
 
                         }
                     }
+
                     li:nth-child(6) {
                         background-position: -320px 1px;
                         content: 'proyectos';
@@ -177,6 +180,7 @@ body {
 
                         }
                     }
+
                     li:nth-child(7) {
                         background-position: -399px 1px;
                         content: 'You Tube';
@@ -186,9 +190,10 @@ body {
 
                         }
                     }
+
                     li:nth-child(8) {
                         background-position: -358px 1px;
-                       
+
                         content: 'WhatsApp';
 
                         &:hover {
@@ -196,6 +201,7 @@ body {
 
                         }
                     }
+
                     li:last-child {
                         background-position: -31px 1px;
                         content: 'Correo';
@@ -210,43 +216,13 @@ body {
         }
 
 
-
-        footer {
-            min-height: 5vh;
-            display: grid;
-            place-items: center;
-            color: var(--colorLetra);
-
-        }
     }
 
+    footer {
+        min-height: 5vh;
+        display: grid;
+        place-items: center;
+        color: var(--colorLetra);
 
-
-
-    /*animacion de la sombra
-
-
-&::after {
-    content: "";
-    position: absolute;
-    top: calc(50% - 30px);
-    left: calc(50% - 25px);
-    width: 50%;
-    height: 50%;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 26, 0.16);
-    animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-    0% {
-        box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
-        transform: rotate(0deg);
-    }
-
-    100% {
-        box-shadow: 0 -20px 20px rgba(0, 0, 0, 0.5);
-        transform: rotate(360deg);
     }
 }
-*/
