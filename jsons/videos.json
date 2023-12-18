@@ -1,0 +1,19 @@
+{
+    "clases": [
+        {
+            "titulo": "video 1",
+            "descripcion": "juego realizado en html, css y javascript0",
+            "video": "https://www.youtube.com/embed/lCsAaVw8nnY?si=-X2VhySEjA8cgNDv"
+        },
+        {
+            "titulo": "video 2",
+            "descripcion": "juego realizado en html, css y javascript0",
+            "video": "https://www.youtube.com/embed/lCsAaVw8nnY?si=-X2VhySEjA8cgNDv"
+        },
+        {
+            "titulo": "video 3",
+            "descripcion": "juego realizado en html, css y javascript0",
+            "video": "https://www.youtube.com/embed/lCsAaVw8nnY?si=-X2VhySEjA8cgNDv"
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Press+Start+2P&display=swap');
-
+@import url('clases_videos.css');
 
 :root {
     --colorLetra: white;
@@ -26,12 +26,12 @@ body {
         color: var(--colorLetra);
 
         div {
-            height: 6em;
-            width: 6em;
-            background-image: url('img/icons.png');
+            height: 4em;
+            width: 4em;
+            background-image: url('../img/icons.png');
             background-repeat: no-repeat;
             background-size: 1100%;
-            background-position: -269px 0px;
+            background-position: -179px 0px;
             transition: transform .5s;
             justify-self: self-end;
             position: relative;
@@ -79,7 +79,7 @@ body {
 
             div:first-child {
                 width: 8em;
-                background-image: url('img/fotoPersonal.png');
+                background-image: url('../img/fotoPersonal.png');
                 background-repeat: no-repeat;
                 background-size: 215%;
                 background-position: -10px center;
@@ -117,7 +117,7 @@ body {
                         width: 2.5em;
                         background-repeat: no-repeat;
                         background-size: 1100%;
-                        background-image: url('img/icons.png');
+                        background-image: url('../img/icons.png');
                         margin-top: .5em;
                     }
 
