@@ -1,7 +1,7 @@
 export class PromptVideos {
-    constructor(titulo, descripcion, img) {
-        const titulo = titulo;
-        const descripcion = descripcion;
+    constructor(titul, descripcio, img) {
+        const titulo = titul;
+        const descripcion = descripcio;
         const src = img;
     }
     

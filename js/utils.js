@@ -1,4 +1,4 @@
-import {PromptVideos} from './js/promt.js';
+import {PromptVideos} from './promt.js';
 
 export const utils = {
 
