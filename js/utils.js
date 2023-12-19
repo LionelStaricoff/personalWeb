@@ -2,20 +2,17 @@ import {PromptVideos} from './promt.js';
 
 export const utils = {
 
-    leerJson: async function (archivo = 'videos.json',numero) {
+    leerJson: async function (archivo = '/jsons/videos.json',nombre) {
         try {
             await fetch(archivo)
                 .then(response => response.json())
                 .then(data => {
                     const datos = data.clases;
                     datos.forEach(element => {
-                        const pmt = utils.Tipo_objetos(numero);
+                        const pmt = utils.Tipo_objetos(element,nombre);
                          pmt.agregarAlFront();
                     });
-                  
-                  
-
-                 
+ 
                 })
                 .catch(error => {
                     alert('error al convertir el json', error);
@@ -32,15 +29,14 @@ export const utils = {
         main.innerHTML = '';
     },
 
-    Tipo_objetos: (numero)=>{
+    Tipo_objetos: (element,numero='videos')=>{
 
         switch(numero){
-            case "Papayas":
-                console.log("El kilogramo de mangos y papayas cuesta $2.79.");
-                break;
+            case "videos":
+                return new PromptVideos(element.titulo,element.descripcion,element.video);
                 default:
-                    return new PromptVideos(element.titulo,element.descripcion,element.video);
-        }
+                    alert('error de conceccion en utils');
+                      }
     }
 
 }

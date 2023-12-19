@@ -3,16 +3,21 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background: linear-gradient(blue, green, rgb(255, 5, 47));
+    /* background: linear-gradient(blue, green, rgb(255, 5, 47)); */
     min-height: 70vh;
 
     .videos {
         width: 20em;
         height: 20em;
         border: solid 5px blue;
+        border-radius: 5px;
         display: grid;
         place-items: center;
         margin: 1em;
+
+        p{
+            margin: 0 .5em ;
+        }
 
         iframe {
             width: 95%;

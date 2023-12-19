@@ -3,22 +3,23 @@ export class PromptVideos {
         const titulo = titul;
         const descripcion = descripcio;
         const src = img;
-    }
     
-    getTitulo = ()=>{
+    
+    this.getTitulo = ()=>{
     return titulo;
     }
 
-    getDescripcion = ()=>{
+    this.getDescripcion = ()=>{
         return descripcion;
     }
 
-    getSrc = ()=>{
+    this.getSrc = ()=>{
         return src;
     }
+}
 
     agregarAlFront() {
-        const main = document.querySelector("#pVideo");
+        const main = document.querySelector(".agregar");
         main.innerHTML += this.armarPrompt();
     }
     armarPrompt() {
