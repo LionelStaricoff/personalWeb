@@ -1,11 +1,15 @@
-import { impl } from '/js/impl.js';
+import * as l from '/js/impl.js';
 
+try {
 
-const buttons = document.querySelectorAll('li');
-buttons[0].addEventListener('click', () => {
-  impl.clases();
+  const buttons = document.querySelectorAll('li');
+  buttons[0].addEventListener('click', () => { l.impl.clases(); });
+  buttons[1].addEventListener('click', () => { l.impl.clear(); });
+
+} catch (error) {
+  alert(error);
 }
-);
+
 
 
 

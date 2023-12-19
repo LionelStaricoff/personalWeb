@@ -19,7 +19,7 @@ body {
 
     header {
         width: 100vw;
-        min-height: 20vh;
+        min-height: 15vh;
         display: grid;
         place-items: center;
         grid-template-columns: auto auto;
@@ -63,7 +63,7 @@ body {
         .card {
             width: min(100%, 40em);
             min-height: 75vh;
-            margin: 2em 0;
+            margin: 1em 0;
             border: 5px solid rgb(0, 255, 255);
             border-bottom: 5px solid rgb(238, 129, 238);
 

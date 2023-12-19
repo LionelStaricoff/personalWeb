@@ -25,7 +25,7 @@ export const utils = {
     },
 
     borrarTodo:()=>{
-        const main = document.querySelector("agregar");
+        const main = document.querySelector(".agregar");
         main.innerHTML = '';
     },
 
