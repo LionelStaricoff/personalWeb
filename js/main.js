@@ -11,6 +11,15 @@ try {
 }
 
 
+/*
+const miLista = document.querySelector('ul');
 
-
+window.addEventListener('scroll', function() {
+  if (miLista.getBoundingClientRect().top < 0) {
+    miLista.classList.add('sticky');
+  } else {
+    miLista.classList.remove('sticky');
+  }
+});
+*/
 

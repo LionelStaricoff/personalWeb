@@ -34,7 +34,6 @@ body {
             background-position: -179px 0px;
             transition: transform .5s;
             justify-self: self-end;
-            position: relative;
             filter: drop-shadow(0 0 5px yellow) drop-shadow(0 0 10px yellow);
 
 
@@ -59,22 +58,19 @@ body {
     main {
         display: grid;
         place-items: center;
+        min-height: 85vh;
 
         .card {
             width: min(100%, 40em);
-            min-height: 75vh;
             margin: 1em 0;
             border: 5px solid rgb(0, 255, 255);
             border-bottom: 5px solid rgb(238, 129, 238);
 
 
             display: grid;
-            padding: 10px;
+            padding: 0 10px;
             grid-template-areas:
-                'foto  texto'
-                'foto  texto'
-                'foto  texto'
-                'iconos iconos';
+                'foto  texto';
             color: var(--colorLetra);
 
             div:first-child {
@@ -101,128 +97,145 @@ body {
                 }
             }
 
-            div:last-child {
-                grid-area: iconos;
-                height: 3em;
 
-                ul {
-                    display: grid;
-                    place-items: center;
-                    grid-template-columns: repeat(9, 1fr);
-                    text-decoration: none;
-                    list-style-type: none;
-
-                    li {
-                        height: 2.5em;
-                        width: 2.5em;
-                        background-repeat: no-repeat;
-                        background-size: 1100%;
-                        background-image: url('../img/icons.png');
-                        margin-top: .5em;
-                    }
-
-                    li:first-child {
-                        background-position: -235px 1px;
-                        content: 'Portfolios Webs';
-
-                        &:hover {
-                            background-position: -235px -44px;
-                        }
-                    }
-
-                    li:nth-child(2) {
-                        background-position: -151px 1px;
-                        content: 'Linkedin';
-
-                        &:hover {
-                            background-position: -151px -44px;
-
-                        }
-
-                    }
-
-                    li:nth-child(3) {
-                        background-position: -275px 1px;
-                        content: 'Curriculum';
-
-                        &:hover {
-                            background-position: -275px -44px;
-
-                        }
-                    }
-
-                    li:nth-child(4) {
-                        background-position: -75px 1px;
-                        content: 'Github';
-
-                        &:hover {
-                            background-position: -75px -44px;
-
-                        }
-                    }
-
-                    li:nth-child(5) {
-                        background-position: -191px 1px;
-                        content: 'Clases';
-
-                        &:hover {
-                            background-position: -191px -44px;
-
-                        }
-                    }
-
-                    li:nth-child(6) {
-                        background-position: -320px 1px;
-                        content: 'proyectos';
-
-                        &:hover {
-                            background-position: -320px -44px;
-
-                        }
-                    }
-
-                    li:nth-child(7) {
-                        background-position: -399px 1px;
-                        content: 'You Tube';
-
-                        &:hover {
-                            background-position: -399px -44px;
-
-                        }
-                    }
-
-                    li:nth-child(8) {
-                        background-position: -358px 1px;
-
-                        content: 'WhatsApp';
-
-                        &:hover {
-                            background-position: -358px -44px;
-
-                        }
-                    }
-
-                    li:last-child {
-                        background-position: -31px 1px;
-                        content: 'Correo';
-
-                        &:hover {
-                            background-position: -31px -44px;
-
-                        }
-                    }
-                }
-            }
         }
 
 
     }
 
     footer {
-        min-height: 5vh;
-        display: grid;
-        place-items: center;
+
         color: var(--colorLetra);
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+
+
+        ul {
+            display: grid;
+            place-items: center;
+            grid-template-columns: repeat(9, 1fr);
+            text-decoration: none;
+            list-style-type: none;
+
+
+
+            li {
+                height: 2.5em;
+                width: 2.5em;
+                background-repeat: no-repeat;
+                background-size: 1100%;
+                background-image: url('../img/icons.png');
+                margin-top: .5em;
+
+            }
+
+            li:first-child {
+                background-position: -235px 1px;
+                content: 'Portfolios Webs';
+
+                &:hover {
+                    background-position: -235px -44px;
+                }
+            }
+
+            li:nth-child(2) {
+                background-position: -151px 1px;
+                content: 'Linkedin';
+
+                &:hover {
+                    background-position: -151px -44px;
+
+                }
+
+            }
+
+            li:nth-child(3) {
+                background-position: -275px 1px;
+                content: 'Curriculum';
+
+                &:hover {
+                    background-position: -275px -44px;
+
+                }
+            }
+
+            li:nth-child(4) {
+                background-position: -75px 1px;
+                content: 'Github';
+
+                &:hover {
+                    background-position: -75px -44px;
+
+                }
+            }
+
+            li:nth-child(5) {
+                background-position: -191px 1px;
+                content: 'Clases';
+
+                &:hover {
+                    background-position: -191px -44px;
+
+                }
+            }
+
+            li:nth-child(6) {
+                background-position: -320px 1px;
+                content: 'proyectos';
+
+                &:hover {
+                    background-position: -320px -44px;
+
+                }
+            }
+
+            li:nth-child(7) {
+                background-position: -399px 1px;
+                content: 'You Tube';
+
+                &:hover {
+                    background-position: -399px -44px;
+
+                }
+            }
+
+            li:nth-child(8) {
+                background-position: -358px 1px;
+
+                content: 'WhatsApp';
+
+                &:hover {
+                    background-position: -358px -44px;
+
+                }
+            }
+
+            li:last-child {
+                background-position: -31px 1px;
+                content: 'Correo';
+
+                &:hover {
+                    background-position: -31px -44px;
+
+                }
+            }
+
+            @media (max-width: 400px) {
+                background-color: brown;
+
+
+
+                ul {
+                    height: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex: 1 0 30%;
+                    background-color: brown;
+                }
+            }
+        }
+
 
     }
 }
