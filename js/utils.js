@@ -42,11 +42,16 @@ export const utils = {
     modBack: () => {
         const luz = document.querySelector("#ligth");
         const body = document.querySelector('body');
-
+        const fotoPersonal = document.querySelector('#fotoPersonal');
+       
+        console.log(fotoPersonal.c);
         luz.addEventListener("click", () => {
             body.classList.toggle("darckMod");
             luz.classList.toggle('darckLigth');
+            fotoPersonal.classList.toggle('fotoPersonalDarck');
 
+          
+            
         });
 
     }

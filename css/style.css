@@ -13,6 +13,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Lumanosimo, Arial, Helvetica, sans-serif;
+    transition: all .5s;
 }
 
 body {
@@ -27,12 +28,12 @@ body {
         color: var(--colorLetra);
 
         div {
-            height: 4em;
-            width: 4em;
+            height: 3.9em;
+            width: 3.9em;
             background-image: url('../img/icons.png');
             background-repeat: no-repeat;
             background-size: 1100%;
-            background-position: -179px 0px;
+            background-position: -175px 0px;
             transition: transform .5s;
             justify-self: self-end;
             filter: drop-shadow(0 0 5px yellow) drop-shadow(0 0 10px yellow);

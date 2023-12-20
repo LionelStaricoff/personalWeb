@@ -6,10 +6,15 @@
 }
 
 .darckLigth{
-    background-position: -179px -68px;
+    background-position: -175px -68px;
     filter: drop-shadow(0 0 5px white) drop-shadow(0 0 10px grey);
     &:hover {
         filter: drop-shadow(0 0 10px grey) drop-shadow(0 0 20px yellow);
 
     }
+}
+
+.fotoPersonalDarck{
+    background-position: -150px center !important;
+ 
 }
