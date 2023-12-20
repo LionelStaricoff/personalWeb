@@ -45,8 +45,8 @@ export const utils = {
 
         luz.addEventListener("click", () => {
             body.classList.toggle("darckMod");
-  
-            
+            luz.classList.toggle('darckLigth');
+
         });
 
     }
