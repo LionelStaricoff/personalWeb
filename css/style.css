@@ -61,7 +61,8 @@ body {
         min-height: 85vh;
 
         .card {
-            width: min(100%, 40em);
+            width: min(100%, 50em);
+            height: min(100%, 50em);
             margin: 1em 0;
             border: 5px solid rgb(0, 255, 255);
             border-bottom: 5px solid rgb(238, 129, 238);
