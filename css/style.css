@@ -51,6 +51,7 @@ body {
             font-weight: bolder;
             justify-self: self-start;
             text-shadow: 3px 3px 3px black;
+            text-align: center;
         }
     }
 
