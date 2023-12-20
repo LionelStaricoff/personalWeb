@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Press+Start+2P&display=swap');
 @import url('clases_videos.css');
+@import url('back.css');
 
 :root {
-    --colorLetra: white;
+    --colorLetra: yellow;
 }
 
 
@@ -95,7 +96,8 @@ body {
                 place-items: center;
 
                 p {
-                    hyphens: auto;
+                    /* hyphens: auto; */
+                    text-shadow: 3px 3px 3px black;
                 }
             }
 
