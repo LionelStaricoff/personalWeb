@@ -41,6 +41,7 @@ export const utils = {
 
     modBack: () => {
         const luz = document.querySelector("#ligth");
+        const h1 = document.querySelector('h1');
         const body = document.querySelector('body');
         const fotoPersonal = document.querySelector('#fotoPersonal');
         const buttons = document.querySelectorAll('li');
@@ -48,6 +49,7 @@ export const utils = {
         luz.addEventListener("click", () => {
             body.classList.toggle("darckMod");
             luz.classList.toggle('darckLigth');
+            h1.innerText = 'Desarrollador Backend';
             fotoPersonal.classList.toggle('fotoPersonalDarck');
             buttons[0].classList.toggle(`fotosDarck0`);
             buttons[1].classList.toggle(`fotosDarck1`);
