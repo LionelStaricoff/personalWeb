@@ -62,6 +62,7 @@ body {
         display: grid;
         place-items: center;
         min-height: 85vh;
+        margin-bottom: 3em;
 
         .card {
             width: min(100%, 50em);
