@@ -16,5 +16,72 @@
 
 .fotoPersonalDarck{
     background-position: -150px center !important;
- 
+}
+
+.fondoFotos{
+    background-color: whitesmoke;
+}
+
+.fotosDarck0{
+    background-position: -235px -44px !important ;
+    box-shadow: 3px 3px 3px 3px darkgray;
+    &:hover{
+        background-position: -235px -1px !important ;
+    }
+}
+.fotosDarck1{
+    background-position: -151px  -44px !important ;
+    box-shadow: 3px 3px 3px 3px darkgray;
+    &:hover{
+        background-position: -151px -1px !important ;
+    }
+}
+.fotosDarck2{
+    background-position: -275px  -44px !important ;
+    box-shadow: 3px 3px 3px 3px darkgray;
+    &:hover{
+        background-position: -275px -1px !important ;
+    }
+}
+.fotosDarck3{
+    background-position: -75px  -1px !important ;
+    box-shadow: 3px 3px 3px 3px darkgray;
+    &:hover{
+        background-position: -75px -44px !important ;
+    }
+}
+.fotosDarck4{
+    background-position: -191px  -44px !important ;
+    box-shadow: 3px 3px 3px 3px darkgray;
+    &:hover{
+        background-position: -191px -1px !important ;
+    }
+}
+.fotosDarck5{
+    background-position: -320px  -44px !important ;
+    box-shadow: 3px 3px 3px 3px darkgray;
+    &:hover{
+        background-position: -320px -1px !important ;
+    }
+}
+.fotosDarck6{
+    background-position: -399px  -44px !important ;
+    box-shadow: 3px 3px 3px 3px darkgray;
+    &:hover{
+        background-position: -399px -1px !important ;
+    }
+}
+.fotosDarck7{
+    background-position: -358px  -44px !important ;
+    box-shadow: 3px 3px 3px 3px darkgray;
+    &:hover{
+        background-position: -358px -1px !important ;
+    }
+}
+.fotosDarck8{
+    background-position: -31px  -44px !important ;
+    box-shadow: 3px 3px 3px 3px darkgray;
+    &:hover{
+        background-position: -31px -1px !important ;
+    }
 }

@@ -43,16 +43,28 @@ export const utils = {
         const luz = document.querySelector("#ligth");
         const body = document.querySelector('body');
         const fotoPersonal = document.querySelector('#fotoPersonal');
-       
-        console.log(fotoPersonal.c);
+        const buttons = document.querySelectorAll('li');
+        const ul = document.querySelector('ul');
         luz.addEventListener("click", () => {
             body.classList.toggle("darckMod");
             luz.classList.toggle('darckLigth');
             fotoPersonal.classList.toggle('fotoPersonalDarck');
+            buttons[0].classList.toggle(`fotosDarck0`);
+            buttons[1].classList.toggle(`fotosDarck1`);
+            buttons[2].classList.toggle(`fotosDarck2`);
+            buttons[3].classList.toggle(`fotosDarck3`);
+            buttons[4].classList.toggle(`fotosDarck4`);
+            buttons[5].classList.toggle(`fotosDarck5`);
+            buttons[6].classList.toggle(`fotosDarck6`);
+            buttons[7].classList.toggle(`fotosDarck7`);
+            buttons[8].classList.toggle(`fotosDarck8`);
+            ul.classList.toggle('fondoFotos');
+            });
 
-          
-            
-        });
+
+
+
+     
 
     }
 

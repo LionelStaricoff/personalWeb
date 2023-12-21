@@ -166,11 +166,11 @@ body {
             }
 
             li:nth-child(4) {
-                background-position: -75px 1px;
+                background-position: -75px -44px;
                 content: 'Github';
 
                 &:hover {
-                    background-position: -75px -44px;
+                    background-position: -75px 1px;
 
                 }
             }
