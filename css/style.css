@@ -87,6 +87,10 @@ body {
                 grid-area: foto;
                 margin-right: .5em;
 
+                &:hover {
+                    transform: scale(.8);
+                   
+                }
 
             }
 

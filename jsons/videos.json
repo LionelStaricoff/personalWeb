@@ -66,6 +66,11 @@
             "video": "https://www.youtube.com/embed/DcdTBON-N9o?si=M4EXDGo3rC1Ms4Ko"
         } ,
         {
+            "titulo": "Carga dinámica en el HTML",
+            "descripcion": "Cargando elementos al HTML desde una función en JavaScript usando una función asincronía async, await para esperar a que termine el  fetch para la carga de datos desde un JSON.",
+            "video": "https://www.youtube.com/embed/1k1QN4_i5TI?si=3GanCZVYIGuwyqJd"
+        } ,
+        {
             "titulo": "Proteger los códigos en JavaScript.",
             "descripcion": "Obfuscadores para ocultar y proteger los códigos en JavaScript.",
             "video": "https://www.youtube.com/embed/E4EVvknRkps?si=GzBdtH_58Ewp-rkq"

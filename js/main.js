@@ -3,9 +3,13 @@ import * as l from '/js/impl.js';
 try {
   const luz = document.querySelector('#ligth');
   luz.addEventListener('click', ()=> {l.impl.modoBack() });
+
+   const foto = document.querySelector('#fotoPersonal');
+   foto.addEventListener('click', () => { l.impl.clear(); });
+
   const buttons = document.querySelectorAll('li');
   buttons[0].addEventListener('click', () => { l.impl.clases(); });
-  buttons[1].addEventListener('click', () => { l.impl.clear(); });
+ 
 
 } catch (error) {
   alert(error);
