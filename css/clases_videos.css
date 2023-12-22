@@ -16,6 +16,7 @@
 
         h2{
             color: var(--colorLetra);
+            text-align: center;
             border-bottom: 2px solid var(--colorLetra);
             &:first-letter {
                 text-transform: uppercase;

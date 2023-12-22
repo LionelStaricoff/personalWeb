@@ -1,19 +1,79 @@
 {
     "clases": [
         {
-            "titulo": "video 1",
-            "descripcion": "juego realizado en html, css y javascript0",
-            "video": "https://www.youtube.com/embed/lCsAaVw8nnY?si=-X2VhySEjA8cgNDv"
+            "titulo": "git basico",
+            "descripcion": "Manejo de ramas con para realizar trabajos: git  mergue, git rebase y git cherry-pick..",
+            "video": "https://www.youtube.com/embed/2w9hRGtu788?si=bPwXzls9eC8Zr6Hr"
         },
         {
-            "titulo": "video 2",
-            "descripcion": "juego realizado en html, css y javascript0",
-            "video": "https://www.youtube.com/embed/lCsAaVw8nnY?si=-X2VhySEjA8cgNDv"
+            "titulo": "Juego de adivinar número",
+            "descripcion": "Realizado en html, css y JavaScript.",
+            "video": "https://www.youtube.com/embed/lCsAaVw8nnY?si=DiDZ60XTRKwl5PLj"
         },
         {
-            "titulo": "video 3",
-            "descripcion": "juego realizado en html, css y javascript0",
-            "video": "https://www.youtube.com/embed/lCsAaVw8nnY?si=-X2VhySEjA8cgNDv"
-        }
-    ]
+            "titulo": "Calculadora",
+            "descripcion": "Uso de funcion onClick() en el html.",
+            "video": "https://www.youtube.com/embed/0s0Ccp1JowI?si=NH9R_phY_qIF5xJF"
+        },
+        {
+            "titulo": "Atrapa pokemon",
+            "descripcion": "juego realizado para ver practicar javascript, html y css,",
+            "video": "https://www.youtube.com/embed/Egsfj8c-Ls4?si=g_P8e_hGQKoR96cI"
+        } ,
+        {
+            "titulo": "Planteo del proyecto notas app",
+            "descripcion": "Realizando  diagrama de flujo del funcinamiento  para  la app de notas.",
+            "video": "https://www.youtube.com/embed/Q5rWf1Sv2H8?si=vQnM7ONBfsuaSCHB"
+        } ,
+        {
+            "titulo": "Proyecto notas app 2",
+            "descripcion": "Depurando errores en css y javascript, avanzando con los prompt en javscript para eliminar notas",
+            "video": "https://www.youtube.com/embed/AgcrWPlXD0I?si=D8dMzDyHKM0_8pYF"
+        } ,
+        {
+            "titulo": "Notas parte 3 Local Storage",
+            "descripcion": "Trayendo las notas del DOM, convertirlas a un objeto literal clave : valor y seteando notas en el Local Storage con javascript. Efectos de arrastre de las notas con el mousse y efectos de arrastre con el dedo",
+            "video": "https://www.youtube.com/embed/sfY6zSXkg2w?si=aQGWzleAsAkroREd"
+        } ,
+        {
+            "titulo": "Finalizando Notas.",
+            "descripcion": "Seteando las notas en el local storage con javascript y recuperando las notas.",
+            "video": "https://www.youtube.com/embed/Oi7iV9ehlvs?si=yWJD81aeqopOFR3X"
+        } ,
+        {
+            "titulo": "Sprite en css",
+            "descripcion": "Realizo un seteo de varios div de HTML desde una imagen Sprite, tomando según la posición del background la imagen que necesito, también se efectúa un efecto de cambio de imagen con el :hover.",
+            "video": "https://www.youtube.com/embed/EdrVeF9vSiQ?si=V64ZlfJmmgGJ_spG"
+        } ,
+        {
+            "titulo": "objetos con JavaScript",
+            "descripcion": "Construir objetos con JavaScript, clases, objetos literales y método builder de construcción.",
+            "video": "https://www.youtube.com/embed/ZekjaEXZ-gc?si=pGDeM0rzz4y6-ei5"
+        } ,
+        {
+            "titulo": "Método builder JavaScript",
+            "descripcion": "Repaso método de construir objetos por partes.",
+            "video": "https://www.youtube.com/embed/rlW_gLZQygU?si=9ECvp5bY8AyYV6bP"
+        } ,
+        {
+            "titulo": "convertir proyecto web en apk Android",
+            "descripcion": "Usando un programa web convertimos nuestra app de html, css y javascript para usar en el celular android.",
+            "video": "https://www.youtube.com/embed/P28b_qpJun4?si=pgiDIdMEs6CFETIq"
+        } ,
+        {
+            "titulo": "Content en css.",
+            "descripcion": "Colocar en CSS dentro del content una frase para que se cargue cuando no funcionen las imágenes de fondo.",
+            "video": "https://www.youtube.com/embed/DcdTBON-N9o?si=M4EXDGo3rC1Ms4Ko"
+        } ,
+        {
+            "titulo": "Proteger los códigos en JavaScript.",
+            "descripcion": "Obfuscadores para ocultar y proteger los códigos en JavaScript.",
+            "video": "https://www.youtube.com/embed/E4EVvknRkps?si=GzBdtH_58Ewp-rkq"
+        } ,
+        {
+            "titulo": "Proteger los atributos de los objetos en JavaScript.",
+            "descripcion": "Privatizar los atributos de los objetos en JavaScript para que no se puedan modificar desde fuera.",
+            "video": "https://www.youtube.com/embed/G7qA9CYb_lI?si=OJ41y7de-ZKxRTfx"
+        } 
+     ]
 }
