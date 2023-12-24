@@ -9,7 +9,7 @@ try {
 
   const buttons = document.querySelectorAll('li');
   buttons[0].addEventListener('click', () => { l.impl.clases(); });
- 
+  buttons[8].addEventListener('click', () => { l.impl.email(); });
 
 } catch (error) {
   alert(error);

@@ -6,8 +6,8 @@
  
 
     .videos {
-        width: min(100%,20em);
-        height: 20em;
+        width: min(100%,25em);
+        height: 25em;
         border: solid 5px var(--colorLetra);
         border-radius: 5px;
         display: grid;

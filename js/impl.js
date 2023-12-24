@@ -6,6 +6,8 @@ export const impl ={
 
    clases: ()=>{ utils.leerJson(); },
    
-   clear: ()=>{utils.borrarTodo();}
+   clear: ()=>{utils.borrarTodo();},
+
+   email: ()=>{utils.promptEmail();}
   
   }

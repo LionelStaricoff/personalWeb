@@ -1,4 +1,4 @@
-import { PromptVideos } from './promt.js';
+import * as p from './promt.js';
 
 export const utils = {
 
@@ -33,7 +33,7 @@ export const utils = {
 
         switch (numero) {
             case "videos":
-                return new PromptVideos(element.titulo, element.descripcion, element.video);
+                return new p.PromptVideos(element.titulo, element.descripcion, element.video);
             default:
                 alert('error de conceccion en utils');
         }
@@ -64,10 +64,9 @@ export const utils = {
             });
 
 
-
-
-     
-
+    },
+    promptEmail: ()=>{
+        p.promtEmail.email();
     }
 
 }

@@ -66,8 +66,7 @@ body {
 
         .card {
             width: min(100%, 50em);
-            height: min(100%, 50em);
-            margin: 1em 0;
+            height: min(100%, 25em);
             border: 5px solid rgb(0, 255, 255);
             border-bottom: 5px solid rgb(238, 129, 238);
 
@@ -88,8 +87,9 @@ body {
                 margin-right: .5em;
 
                 &:hover {
-                    transform: scale(.8);
-                   
+                    transform: scale(.9);
+                    filter: drop-shadow(5px 5px 5px #000);
+
                 }
 
             }
@@ -100,12 +100,14 @@ body {
                 background-color: inherit;
                 display: grid;
                 place-items: center;
+                overflow: auto;
 
                 p {
-                    /* hyphens: auto; */
                     text-shadow: 3px 3px 3px black;
                 }
             }
+
+
 
 
         }
@@ -138,7 +140,15 @@ body {
                 background-image: url('../img/icons.png');
                 margin-top: .5em;
 
+                a {
+                    width: 100%;
+                    height: 100%;
+
+                    display: inline-block;
+                }
+
             }
+
 
             li:first-child {
                 background-position: -235px 1px;
