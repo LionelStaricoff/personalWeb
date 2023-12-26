@@ -24,11 +24,12 @@ form {
 
     input[type=submit] {
         color: var(--colorLetra);
-        background-image: -moz-linear-gradient(45deg, red, blue, white);
+        background-image: -moz-linear-gradient(45deg, red, blue, red);
         opacity: 1;
+       
 
-        &:hover{
-            transform:scale(.9);
+        &:hover {
+            transform: scale(.9);
         }
     }
 
