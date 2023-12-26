@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Press+Start+2P&display=swap');
 @import url('clases_videos.css');
 @import url('back.css');
-
+@import url('form.css');
 :root {
     --colorLetra: yellow;
 }

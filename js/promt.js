@@ -42,12 +42,15 @@ export const promtEmail = {
 
         main.innerHTML = `<form action="mailto:staicofflionel@gmail.com" method="post" enctype="text/plain">
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre"><br><br>
+        <input type="text" id="nombre" name="nombre">
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
-        <label for="mensaje">Mensaje:</label><br>
-        <textarea id="mensaje" name="mensaje"></textarea><br><br>
+        <input type="email" id="email" name="email">
+        <label for="telefono">telefono:</label>
+        <input type="number" id="telefono" name="telefono">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
         <input type="submit" value="Enviar">
+        
     </form>`
     }
 }

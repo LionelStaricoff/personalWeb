@@ -2,86 +2,109 @@
     background: linear-gradient(180deg, rgb(95, 95, 98), rgb(1, 2, 1)) no-repeat;
 
     --colorLetra: white;
-  
+
 }
 
-.darckLigth{
+.darckLigth {
     background-position: -175px -68px;
     filter: drop-shadow(0 0 5px white) drop-shadow(0 0 10px grey);
+
     &:hover {
         filter: drop-shadow(0 0 10px grey) drop-shadow(0 0 20px yellow);
 
     }
 }
 
-.fotoPersonalDarck{
+.fotoPersonalDarck {
     background-position: -150px center !important;
 }
 
-.fondoFotos{
+.fondoFotos {
     background-color: whitesmoke;
 }
 
-.fotosDarck0{
-    background-position: -235px -44px !important ;
+.fotosDarck0 {
+    background-position: -235px -44px !important;
     box-shadow: 3px 3px 3px 3px darkgray;
-    &:hover{
-        background-position: -235px -1px !important ;
+
+    &:hover {
+        background-position: -235px -1px !important;
     }
 }
-.fotosDarck1{
-    background-position: -151px  -44px !important ;
+
+.fotosDarck1 {
+    background-position: -151px -44px !important;
     box-shadow: 3px 3px 3px 3px darkgray;
-    &:hover{
-        background-position: -151px -1px !important ;
+
+    &:hover {
+        background-position: -151px -1px !important;
     }
 }
-.fotosDarck2{
-    background-position: -275px  -44px !important ;
+
+.fotosDarck2 {
+    background-position: -275px -44px !important;
     box-shadow: 3px 3px 3px 3px darkgray;
-    &:hover{
-        background-position: -275px -1px !important ;
+
+    &:hover {
+        background-position: -275px -1px !important;
     }
 }
-.fotosDarck3{
-    background-position: -75px  -1px !important ;
+
+.fotosDarck3 {
+    background-position: -75px -1px !important;
     box-shadow: 3px 3px 3px 3px darkgray;
-    &:hover{
-        background-position: -75px -44px !important ;
+
+    &:hover {
+        background-position: -75px -44px !important;
     }
 }
-.fotosDarck4{
-    background-position: -191px  -44px !important ;
+
+.fotosDarck4 {
+    background-position: -191px -44px !important;
     box-shadow: 3px 3px 3px 3px darkgray;
-    &:hover{
-        background-position: -191px -1px !important ;
+
+    &:hover {
+        background-position: -191px -1px !important;
     }
 }
-.fotosDarck5{
-    background-position: -320px  -44px !important ;
+
+.fotosDarck5 {
+    background-position: -320px -44px !important;
     box-shadow: 3px 3px 3px 3px darkgray;
-    &:hover{
-        background-position: -320px -1px !important ;
+
+    &:hover {
+        background-position: -320px -1px !important;
     }
 }
-.fotosDarck6{
-    background-position: -399px  -44px !important ;
+
+.fotosDarck6 {
+    background-position: -399px -44px !important;
     box-shadow: 3px 3px 3px 3px darkgray;
-    &:hover{
-        background-position: -399px -1px !important ;
+
+    &:hover {
+        background-position: -399px -1px !important;
     }
 }
-.fotosDarck7{
-    background-position: -358px  -44px !important ;
+
+.fotosDarck7 {
+    background-position: -358px -44px !important;
     box-shadow: 3px 3px 3px 3px darkgray;
-    &:hover{
-        background-position: -358px -1px !important ;
+
+    &:hover {
+        background-position: -358px -1px !important;
     }
 }
-.fotosDarck8{
-    background-position: -31px  -44px !important ;
+
+.fotosDarck8 {
+    background-position: -31px -44px !important;
     box-shadow: 3px 3px 3px 3px darkgray;
-    &:hover{
-        background-position: -31px -1px !important ;
+
+    &:hover {
+        background-position: -31px -1px !important;
     }
+}
+
+input[type=submit] {
+    background-image: var(--colorLetra) !important;
+    color: black !important;
 }

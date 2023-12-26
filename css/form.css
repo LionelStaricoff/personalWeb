@@ -1,0 +1,35 @@
+form {
+    display: grid;
+    place-content: space-around;
+    width: min(100vw, 600px);
+    height: min(80vh, 600px);
+    text-align: center;
+    color: var(--colorLetra);
+
+    input {
+        min-height: 3em;
+        width: min(90vw, 500px);
+        border-radius: 10px;
+        background-color: rgba(240, 255, 255, 0.642);
+        opacity: .5;
+    }
+
+    textarea {
+        min-height: 8em;
+        width: min(90vw, 500px);
+        border-radius: 10px;
+        background-color: rgba(240, 255, 255, 0.642);
+        opacity: .5;
+    }
+
+    input[type=submit] {
+        color: var(--colorLetra);
+        background-image: -moz-linear-gradient(45deg, red, blue, white);
+        opacity: 1;
+
+        &:hover{
+            transform:scale(.9);
+        }
+    }
+
+}
