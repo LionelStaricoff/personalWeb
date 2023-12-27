@@ -69,11 +69,11 @@
 }
 
 .fotosDarck5 {
-    background-position: -320px -44px !important;
+    background-position: -315px -44px !important;
     box-shadow: 3px 3px 3px 3px darkgray;
 
     &:hover {
-        background-position: -320px -1px !important;
+        background-position: -315px -1px !important;
     }
 }
 

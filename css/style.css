@@ -64,7 +64,7 @@ body {
         place-items: center;
         min-height: 85vh;
         margin-bottom: 3em;
-        
+
         @media (width < 804px){
             display:block;
            margin: 0;
@@ -213,11 +213,11 @@ body {
             }
 
             li:nth-child(6) {
-                background-position: -320px 1px;
+                background-position: -315px 1px;
                 content: 'proyectos';
 
                 &:hover {
-                    background-position: -320px -44px;
+                    background-position: -315px -44px;
 
                 }
             }
