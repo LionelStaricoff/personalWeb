@@ -64,6 +64,11 @@ body {
         place-items: center;
         min-height: 85vh;
         margin-bottom: 3em;
+        
+        @media (width < 804px){
+            display:block;
+           margin: 0;
+        }
 
         .card {
             width: min(100%, 50em);
@@ -148,11 +153,11 @@ body {
                     display: inline-block;
                 }
 
-                
-            @media (max-width: 400px) {
 
-                margin:  .5em;
-            }
+                @media (max-width: 400px) {
+
+                    margin: .5em;
+                }
 
             }
 
