@@ -2,6 +2,7 @@
 @import url('clases_videos.css');
 @import url('back.css');
 @import url('form.css');
+
 :root {
     --colorLetra: yellow;
 }
@@ -129,7 +130,7 @@ body {
             grid-template-columns: repeat(9, 1fr);
             text-decoration: none;
             list-style-type: none;
-
+            overflow: auto;
 
 
             li {
@@ -146,6 +147,12 @@ body {
 
                     display: inline-block;
                 }
+
+                
+            @media (max-width: 400px) {
+
+                margin:  .5em;
+            }
 
             }
 
@@ -241,21 +248,9 @@ body {
                 }
             }
 
-            @media (max-width: 400px) {
-                background-color: brown;
-
-
-
-                ul {
-                    height: 100%;
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex: 1 0 30%;
-                    background-color: brown;
-                }
-            }
         }
-
-
     }
+
+
+
 }
