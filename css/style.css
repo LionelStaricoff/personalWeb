@@ -1,16 +1,17 @@
 @import url('clases_videos.css');
 @import url('back.css');
 @import url('form.css');
+@import url('cv.css');
 
 :root {
     --colorLetra: yellow;
 }
 
+
 @font-face {
     font-family: 'Lumanosimo';
     src: url('../pdf/Lumanosimo-Regular.ttf') format('truetype');
-  }
-
+}
 
 * {
     margin: 0;
@@ -68,7 +69,7 @@ body {
         min-height: 85vh;
         margin-bottom: 3em;
 
-     
+
 
         .card {
             width: min(100%, 50em);
@@ -149,7 +150,6 @@ body {
                 a {
                     width: 100%;
                     height: 100%;
-
                     display: inline-block;
                 }
 

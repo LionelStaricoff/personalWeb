@@ -66,10 +66,11 @@ export const promptCv = {
 
     cv: () => {
         const main = document.querySelector(".agregar");
-
-        main.innerHTML =`<object data="../pdf/_Lionel Staricoff.pdf" width="450" height="450"></object>`;
-
-        main.innerHTML+=`<embed src="../pdf/_Lionel Staricoff.pdf" width="450" height="450" href="url_pdf.pdf"></embed>`;
-        main.innerHTML+=`<iframe src="../pdf/_Lionel Staricoff.pdf" width="450" height="450"></iframe>`;
+        const embed = document.createElement('embed');
+        embed.src = "../pdf/_Lionel Staricoff.pdf";
+        embed.type = "application/pdf";
+        embed.id = 'cv';
+        main.appendChild(embed);
+        
     }
 }
