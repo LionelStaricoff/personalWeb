@@ -35,6 +35,10 @@ export class PromptVideos {
     static
 }
 
+
+
+
+
 export const promtEmail = {
     email: () => {
 
@@ -51,6 +55,21 @@ export const promtEmail = {
         <textarea id="mensaje" name="mensaje" required></textarea>
         <input type="submit" value="Enviar">
         
-    </form>`
+    </form>`;
+    }
+}
+
+
+
+
+export const promptCv = {
+
+    cv: () => {
+        const main = document.querySelector(".agregar");
+
+        main.innerHTML =`<object data="../pdf/_Lionel Staricoff.pdf" width="450" height="450"></object>`;
+
+        main.innerHTML+=`<embed src="../pdf/_Lionel Staricoff.pdf" width="450" height="450" href="url_pdf.pdf"></embed>`;
+        main.innerHTML+=`<iframe src="../pdf/_Lionel Staricoff.pdf" width="450" height="450"></iframe>`;
     }
 }

@@ -8,6 +8,9 @@ export const impl ={
    
    clear: ()=>{utils.borrarTodo();},
 
-   email: ()=>{utils.promptEmail();}
+   email: ()=>{utils.promptEmail();},
+
+   cv: ()=>{utils.cargarCv();}
+
   
   }

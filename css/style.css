@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Press+Start+2P&display=swap');
 @import url('clases_videos.css');
 @import url('back.css');
 @import url('form.css');
@@ -7,6 +6,10 @@
     --colorLetra: yellow;
 }
 
+@font-face {
+    font-family: 'Lumanosimo';
+    src: url('../pdf/Lumanosimo-Regular.ttf') format('truetype');
+  }
 
 
 * {
@@ -65,14 +68,11 @@ body {
         min-height: 85vh;
         margin-bottom: 3em;
 
-        @media (width < 804px){
-            display:block;
-           margin: 0;
-        }
+     
 
         .card {
             width: min(100%, 50em);
-            height: min(100%, 25em);
+            height: 30em;
             border: 5px solid rgb(0, 255, 255);
             border-bottom: 5px solid rgb(238, 129, 238);
 
@@ -155,8 +155,7 @@ body {
 
 
                 @media (max-width: 400px) {
-
-                    margin: .5em;
+                    margin: 0.5em;
                 }
 
             }

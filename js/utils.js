@@ -65,8 +65,16 @@ export const utils = {
 
 
     },
+
+
     promptEmail: ()=>{
         p.promtEmail.email();
+    },
+
+
+    cargarCv:()=>{
+
+        p.promptCv.cv();
     }
 
 }
