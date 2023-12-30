@@ -12,6 +12,7 @@ form {
         border-radius: 10px;
         background-color: rgba(240, 255, 255, 0.642);
         opacity: .5;
+
     }
 
     textarea {
@@ -33,4 +34,5 @@ form {
         }
     }
 
+  
 }
