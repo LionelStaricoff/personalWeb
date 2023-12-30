@@ -4,8 +4,3 @@ embed{
     width: min(100vw, 60em);
     display: block;
 }
-#cv{
-    display: block;
-    text-align: center;
-    color: brown;
-}

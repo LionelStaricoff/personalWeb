@@ -66,11 +66,18 @@ export const promptCv = {
 
     cv: () => {
         const main = document.querySelector(".agregar");
+        while (main.firstChild) { main.removeChild(main.firstChild); };
         const embed = document.createElement('embed');
         embed.src = "../pdf/_Lionel Staricoff.pdf";
         embed.type = "application/pdf";
-        embed.id = 'cv';
         main.appendChild(embed);
-        
+
+        //ir abajo en el menu
+        setInterval(() => {
+            window.scrollTo({
+                top: document.body.scrollHeight,
+                behavior: 'smooth'
+              });
+        }, 1000);
     }
 }
