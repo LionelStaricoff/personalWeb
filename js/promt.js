@@ -73,7 +73,7 @@ export const promptCv = {
         main.appendChild(embed);
 
         //ir abajo en el menu
-        setInterval(() => {
+        setTimeout(() => {
             window.scrollTo({
                 top: document.body.scrollHeight,
                 behavior: 'smooth'
