@@ -2,6 +2,7 @@
 @import url('back.css');
 @import url('form.css');
 @import url('cv.css');
+@import url('prompt_trabajos.css');
 
 :root {
     --colorLetra: yellow;

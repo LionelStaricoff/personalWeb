@@ -1,3 +1,48 @@
 {
-    
+    "Java": [
+        {
+            "titulo": "funcionamiento lógico con JOptionPane",
+            "descripcion": "Menu: Conversor de Moneda, Encriptador de Contraseña, Conversor de Medidas, Conversor de Grados Centrigrados a Grados Farenheit ",
+            "github": "https://github.com/LionelStaricoff/conversor/blob/main/README.md",
+            "video": "https://www.youtube.com/embed/cfIPnYoEXNI?si=AqvWNuTarwGMT101"
+        },
+        {
+            "titulo": "",
+            "descripcion": "",
+            "github": "",
+            "web": "",
+            "video": ""
+        }
+    ],
+
+    "Javascript": [
+        {
+            "titulo": "Juego AtrapaPokemon",
+            "descripcion": "Diviértete con este increíble juego para atrapar a tus pokemon favoritos.",
+            "github": "https://github.com/LionelStaricoff/AtrapaPokemon",
+            "web": "https://atrapapokemon.netlify.app/",
+            "video": "https://youtu.be/KQWHkBDeEuI?si=JqQbKNUKy0sr6NKK"
+        },
+        {
+            "titulo": "Juego de adivinar el número",
+            "descripcion": "Juego realizado en js, html y css",
+            "github": "https://github.com/LionelStaricoff/Juego-de-adivinar-el-n-mero",
+            "web": "https://lionelstaricoff.github.io/Juego-de-adivinar-el-n-mero/",
+            "video": "https://youtu.be/kiGmv0H6KMs?si=CO2W_-gip9MMPm8X"
+        },
+        {
+            "titulo": "Encriptador-de-datos",
+            "descripcion": "Puedes mandar mensajes encriptados y que otros los desencripten usando esta web:",
+            "github": "",
+            "web": "",
+            "video": ""
+        },
+        {
+            "titulo": "",
+            "descripcion": "",
+            "github": "",
+            "web": "",
+            "video": ""
+        }
+    ]
 }
