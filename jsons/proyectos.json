@@ -7,6 +7,12 @@
             "video": "https://www.youtube.com/embed/cfIPnYoEXNI?si=AqvWNuTarwGMT101"
         },
         {
+            "titulo": "Java | Back-end | Hotel Alura",
+            "descripcion": "Una aplicación CRUD utilizando JDBC y Swing. Biblioteca C3PO para crear Pool de conexiones, base de datos MySql.",
+            "github": "https://github.com/LionelStaricoff/hotel_alura_JDBC",
+            "video": "https://www.youtube.com/watch?v=9hOwqgyzieU"
+        },
+        {
             "titulo": "",
             "descripcion": "",
             "github": "",
@@ -14,7 +20,6 @@
             "video": ""
         }
     ],
-
     "Javascript": [
         {
             "titulo": "Juego AtrapaPokemon",
@@ -43,6 +48,13 @@
             "github": "https://github.com/LionelStaricoff/pokedex",
             "web": "",
             "video": ""
+        },
+        {
+            "titulo": "calculadora",
+            "descripcion": "Poyecto realizado en HTML, css Y Javascript. Cada funcion estan colocados en el html.",
+            "github": "https://github.com/LionelStaricoff/calculadora",
+            "web": "",
+            "video": "https://www.youtube.com/watch?v=9r3HJD9F1d0"
         }
     ]
 }
