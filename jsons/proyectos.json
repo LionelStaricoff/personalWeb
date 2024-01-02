@@ -33,14 +33,14 @@
         {
             "titulo": "Encriptador-de-datos",
             "descripcion": "Puedes mandar mensajes encriptados y que otros los desencripten usando esta web:",
-            "github": "",
-            "web": "",
+            "github": "https://github.com/LionelStaricoff/Encriptador-de-datos/blob/main/README.md",
+            "web": "https://lionelstaricoff.github.io/Encriptador-de-datos/",
             "video": ""
         },
         {
-            "titulo": "",
-            "descripcion": "",
-            "github": "",
+            "titulo": "pokedex",
+            "descripcion": "Realizando una pokedex con html, css y javascrip.",
+            "github": "https://github.com/LionelStaricoff/pokedex",
             "web": "",
             "video": ""
         }
