@@ -23,17 +23,5 @@ try {
 
 
 
-/* codigo para efecto scoll*/
-document.addEventListener("scroll", function() {
-  const divs = document.querySelectorAll(".desaparecer");
-  divs.forEach(function(div) {
-    const rect = div.getBoundingClientRect();
-    const windowHeight = window.innerHeight || document.documentElement.clientHeight;
-    if (rect.top < windowHeight && rect.bottom >= 0) {
-      div.classList.add("aparecer");
-    }else{
-      div.classList.remove("aparecer");
-    }
-  });
-})
+
 

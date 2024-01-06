@@ -10,7 +10,9 @@ export const impl ={
 
    email: ()=>{utils.promptEmail();},
 
-   cv: ()=>{utils.cargarCv();}
+   cv: ()=>{utils.cargarCv();},
+
+   scroll: ()=>{utils.scrollFx();}
 
   
   }
