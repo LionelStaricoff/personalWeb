@@ -1,18 +1,20 @@
-import {utils} from './utils.js';
+import { utils } from './utils.js';
 
-export const impl ={
+export const impl = {
 
-  modoBack:()=>{utils.modBack();},
+  modoBack: () => { utils.modBack(); },
 
-   clases: ()=>{ utils.leerJson(); },
-   
-   clear: ()=>{utils.borrarTodo();},
+  clases: () => { utils.leerJson(); },
 
-   email: ()=>{utils.promptEmail();},
+  clear: () => { utils.borrarTodo(); },
 
-   cv: ()=>{utils.cargarCv();},
+  email: () => { utils.promptEmail(); },
 
-   scroll: ()=>{utils.scrollFx();}
+  cv: () => { utils.cargarCv(); },
 
-  
-  }
+  scroll: () => { utils.scrollFx(); },
+
+  js: () => { utils.leerJson('/json/proyectos.json', 'js'); },
+
+  java: () => { utils.leerJson('/json/proyectos.json', 'java'); },
+}

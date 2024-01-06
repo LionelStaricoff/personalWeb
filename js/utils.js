@@ -15,7 +15,7 @@ export const utils = {
 
                 })
                 .catch(error => {
-                    alert('error al convertir el json', error);
+                    console.error('error al convertir el json', error);
                 })
 
 
@@ -34,8 +34,12 @@ export const utils = {
         switch (numero) {
             case "videos":
                 return new p.PromptVideos(element.titulo, element.descripcion, element.video);
+            case "js":
+                return new p.PromptJs(element.titulo, element.descripcion, element.video);
+            case "java":
+                return new p.PromptJava(element.titulo, element.descripcion, element.video);
             default:
-                alert('error de conceccion en utils');
+                console.error('error archivo incorrectos');
         }
     },
 
@@ -61,32 +65,32 @@ export const utils = {
             buttons[7].classList.toggle(`fotosDarck7`);
             buttons[8].classList.toggle(`fotosDarck8`);
             ul.classList.toggle('fondoFotos');
-            });
+        });
 
 
     },
 
 
-    promptEmail: ()=>{
+    promptEmail: () => {
         p.promtEmail.email();
     },
 
 
-    cargarCv:()=>{
+    cargarCv: () => {
 
         p.promptCv.cv();
     },
 
-    scrollFx:()=>{
+    scrollFx: () => {
         const divs = document.querySelectorAll(".desaparecer");
-        divs.forEach(function(div) {
-          const rect = div.getBoundingClientRect();
-          const windowHeight = window.innerHeight || document.documentElement.clientHeight;
-          if (rect.top < windowHeight && rect.bottom >= 0) {
-            div.classList.add("aparecer");
-          }else{
-            div.classList.remove("aparecer");
-          }
+        divs.forEach(function (div) {
+            const rect = div.getBoundingClientRect();
+            const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+            if (rect.top < windowHeight && rect.bottom >= 0) {
+                div.classList.add("aparecer");
+            } else {
+                div.classList.remove("aparecer");
+            }
         });
     }
 }
