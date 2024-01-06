@@ -13,11 +13,22 @@
             "video": "https://www.youtube.com/watch?v=9hOwqgyzieU"
         },
         {
-            "titulo": "",
-            "descripcion": "",
-            "github": "",
-            "web": "",
-            "video": ""
+            "titulo": "Juego Pokemon.",
+            "descripcion": "Juego conectado a la api-pokemon. Se realiza el front con la galeria swing.",
+            "github": "https://github.com/LionelStaricoff/-api-pokemon/blob/main/README.md",
+            "video": "https://youtu.be/Ot3fFYolv6Y?si=EJnNb2-DHeccZTMR"
+        },
+        {
+            "titulo": "Hotel Alura",
+            "descripcion": "Programa para hacer recervas para con coneccion a base de datos",
+            "github": "https://github.com/LionelStaricoff/hotel_alura_JDBC/blob/main/README.md",
+            "video": "https://youtu.be/9hOwqgyzieU?si=Y-sM1jDT75RIPLg8"
+        },
+        {
+            "titulo": "api con spring boot",
+            "descripcion": "Creando una API con java usando conexión con base de datos MySQL.",
+            "github": "https://github.com/LionelStaricoff/api-rest-spring-boot/blob/master/README.md",
+            "video": "https://youtu.be/4H8pPRt9pyg?si=3TOw8obYf8IwNEZn"
         }
     ],
     "Javascript": [
@@ -40,20 +51,20 @@
             "descripcion": "Puedes mandar mensajes encriptados y que otros los desencripten usando esta web:",
             "github": "https://github.com/LionelStaricoff/Encriptador-de-datos/blob/main/README.md",
             "web": "https://lionelstaricoff.github.io/Encriptador-de-datos/",
-            "video": ""
+            "video": "https://youtu.be/qppeghylp10?si=VrIvfdSzvUXRsmkV"
         },
         {
             "titulo": "pokedex",
             "descripcion": "Realizando una pokedex con html, css y javascrip.",
             "github": "https://github.com/LionelStaricoff/pokedex",
-            "web": "",
-            "video": ""
+            "web": "https://atrapapokemon.netlify.app/",
+            "video": "https://youtu.be/wSqTXF_UCpc?si=c4U2Vhvt89NObgJX"
         },
         {
             "titulo": "calculadora",
             "descripcion": "Poyecto realizado en HTML, css Y Javascript. Cada funcion estan colocados en el html.",
             "github": "https://github.com/LionelStaricoff/calculadora",
-            "web": "",
+            "web": "https://lionelstaricoff.github.io/calculadora/",
             "video": "https://www.youtube.com/watch?v=9r3HJD9F1d0"
         }
     ]
