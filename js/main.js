@@ -19,17 +19,7 @@ try {
 }
 
 
-/*
-const miLista = document.querySelector('ul');
 
-window.addEventListener('scroll', function() {
-  if (miLista.getBoundingClientRect().top < 0) {
-    miLista.classList.add('sticky');
-  } else {
-    miLista.classList.remove('sticky');
-  }
-});
-*/
 
 
 
@@ -41,6 +31,8 @@ document.addEventListener("scroll", function() {
     const windowHeight = window.innerHeight || document.documentElement.clientHeight;
     if (rect.top < windowHeight && rect.bottom >= 0) {
       div.classList.add("aparecer");
+    }else{
+      div.classList.remove("aparecer");
     }
   });
 })
