@@ -3,7 +3,7 @@
 @import url('form.css');
 @import url('cv.css');
 @import url('prompt_trabajos.css');
-
+@import url('scroll.css');
 :root {
     --colorLetra: yellow;
 }

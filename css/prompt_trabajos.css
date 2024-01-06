@@ -7,6 +7,9 @@
     box-shadow: 0 0 10px 3px rgb(0 0 10 /5);
     border-radius: 6px;
     border-left: 4px solid violet;
+    animation: fx linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 50%;
 
     input {
         display: none;
@@ -20,7 +23,7 @@
         width: 100%;
         height: 100%;
 
-        &:hover{
+        &:hover {
             transform: scale(.9);
         }
 
@@ -54,6 +57,20 @@
 
 }
 
+@keyframes fx {
+
+    from {
+        opacity: 0;
+        translate: 0 100px;
+        scale: .5;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+        scale: 1;
+    }
+}
 #activar:checked~.acordion_item {
 
     grid-template-rows: 1fr;
@@ -67,3 +84,4 @@
     transition: 1s;
 
 }
+

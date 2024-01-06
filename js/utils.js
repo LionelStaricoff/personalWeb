@@ -2,7 +2,7 @@ import * as p from './promt.js';
 
 export const utils = {
 
-    leerJson: async function (archivo = '/jsons/videos.json', nombre) {
+    leerJson: async function (archivo = '/json/videos.json', nombre) {
         try {
             await fetch(archivo)
                 .then(response => response.json())

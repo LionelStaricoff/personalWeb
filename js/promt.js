@@ -24,7 +24,7 @@ export class PromptVideos {
     }
 
     armarPrompt() {
-        return `<div class="videos">
+        return `<div class="videos desaparecer">
       <h2>${this.getTitulo()}</h2>
       <p>${this.getDescripcion()}</p>
       <iframe src="${this.getSrc()}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
@@ -32,7 +32,7 @@ export class PromptVideos {
   </div>`
     }
 
-    static
+   
 }
 
 

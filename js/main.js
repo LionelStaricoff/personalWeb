@@ -13,6 +13,7 @@ try {
   buttons[4].addEventListener('click', () => { l.impl.clases(); });
   buttons[8].addEventListener('click', () => { l.impl.email(); });
 
+  document.addEventListener("scroll", () => { l.impl.scroll(); });
 } catch (error) {
   alert(error);
 }
@@ -29,4 +30,18 @@ window.addEventListener('scroll', function() {
   }
 });
 */
+
+
+
+/* codigo para efecto scoll*/
+document.addEventListener("scroll", function() {
+  const divs = document.querySelectorAll(".desaparecer");
+  divs.forEach(function(div) {
+    const rect = div.getBoundingClientRect();
+    const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+    if (rect.top < windowHeight && rect.bottom >= 0) {
+      div.classList.add("aparecer");
+    }
+  });
+})
 
