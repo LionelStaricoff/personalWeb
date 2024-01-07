@@ -1,0 +1,34 @@
+{
+    "clases": [
+        {
+            "titulo": "funcionamiento lógico con JOptionPane",
+            "descripcion": "Menu: Conversor de Moneda, Encriptador de Contraseña, Conversor de Medidas, Conversor de Grados Centrigrados a Grados Farenheit ",
+            "github": "https://github.com/LionelStaricoff/conversor/blob/main/README.md",
+            "video": "https://www.youtube.com/embed/cfIPnYoEXNI?si=AqvWNuTarwGMT101"
+        },
+        {
+            "titulo": "Java | Back-end | Hotel Alura",
+            "descripcion": "Una aplicación CRUD utilizando JDBC y Swing. Biblioteca C3PO para crear Pool de conexiones, base de datos MySql.",
+            "github": "https://github.com/LionelStaricoff/hotel_alura_JDBC",
+            "video": "https://www.youtube.com/watch?v=9hOwqgyzieU"
+        },
+        {
+            "titulo": "Juego Pokemon.",
+            "descripcion": "Juego conectado a la api-pokemon. Se realiza el front con la galeria swing.",
+            "github": "https://github.com/LionelStaricoff/-api-pokemon/blob/main/README.md",
+            "video": "https://youtu.be/Ot3fFYolv6Y?si=EJnNb2-DHeccZTMR"
+        },
+        {
+            "titulo": "Hotel Alura",
+            "descripcion": "Programa para hacer recervas para con coneccion a base de datos",
+            "github": "https://github.com/LionelStaricoff/hotel_alura_JDBC/blob/main/README.md",
+            "video": "https://youtu.be/9hOwqgyzieU?si=Y-sM1jDT75RIPLg8"
+        },
+        {
+            "titulo": "api con spring boot",
+            "descripcion": "Creando una API con java usando conexión con base de datos MySQL.",
+            "github": "https://github.com/LionelStaricoff/api-rest-spring-boot/blob/master/README.md",
+            "video": "https://youtu.be/4H8pPRt9pyg?si=3TOw8obYf8IwNEZn"
+        }
+    ]
+}

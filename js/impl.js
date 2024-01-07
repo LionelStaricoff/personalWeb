@@ -14,7 +14,7 @@ export const impl = {
 
   scroll: () => { utils.scrollFx(); },
 
-  js: () => { utils.leerJson('/json/proyectos.json', 'js'); },
+  js: () => { utils.leerJson('/json/js.json', 'js'); },
 
-  java: () => { utils.leerJson('/json/proyectos.json', 'java'); },
+  java: () => { utils.leerJson('/json/java.json', 'java'); }
 }

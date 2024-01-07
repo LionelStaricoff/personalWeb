@@ -35,9 +35,9 @@ export const utils = {
             case "videos":
                 return new p.PromptVideos(element.titulo, element.descripcion, element.video);
             case "js":
-                return new p.PromptJs(element.titulo, element.descripcion, element.video);
+                return new p.PromptJs(element.titulo, element.descripcion, element.github ,element.web,element.video);
             case "java":
-                return new p.PromptJava(element.titulo, element.descripcion, element.video);
+                return new p.PromptJava(element.titulo, element.descripcion,element.github, element.video);
             default:
                 console.error('error archivo incorrectos');
         }
@@ -92,5 +92,9 @@ export const utils = {
                 div.classList.remove("aparecer");
             }
         });
-    }
+    },
+
+    js: () => { alert('js'); },
+
+    java: () => {alert('java'); }
 }

@@ -32,7 +32,7 @@ export class PromptVideos {
   </div>`
     }
 
-   
+
 }
 
 
@@ -77,7 +77,57 @@ export const promptCv = {
             window.scrollTo({
                 top: document.body.scrollHeight,
                 behavior: 'smooth'
-              });
+            });
         }, 1000);
+    }
+}
+
+
+export class PromptJs {
+
+}
+
+
+export class PromptJava {
+    constructor(titul, descripcio, githu, vide) {
+        const titulo = titul;
+        const descripcion = descripcio;
+        const github = githu;
+        const video = vide;
+
+        this.getTitulo = () => {
+            return titulo;
+        }
+        this.getDescripcion = () => {
+            return descripcion;
+        }
+        this.getGithub = () => {
+            return github;
+        }
+        this.getVideo = () => {
+            return video;
+        }
+    }
+    agregarAlFront() {
+        const main = document.querySelector(".agregar");
+        main.innerHTML += this.armarPrompt();
+    }
+
+    armarPrompt() {
+        return ` <div class="acordion desaparecer">
+        <input id="activar" type="checkbox">
+        <label for="activar">${this.getTitulo()}</label>
+        <hr>
+        <div class="acordion_item">
+            <p class="p">${this.getDescripcion()}</p>
+
+            <a class="p" href="${this.getGithub()}" target="_blank">${this.getGithub()}</a>
+            <iframe class="p" src="${this.getVideo()}"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>`
     }
 }
