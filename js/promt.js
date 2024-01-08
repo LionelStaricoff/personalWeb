@@ -119,11 +119,11 @@ export class PromptJs {
         const label = document.createElement('label');
         label.innerText = this.getTitulo();
         label.addEventListener('click', () => {
-           if( Array.from(acordion_item.classList).includes('acordion_item')){
-            acordion_item.classList.remove('acordion_item');
-           }else{
-            acordion_item.classList.add('acordion_item');
-           }
+            if (Array.from(acordion_item.classList).includes('acordion_item')) {
+                acordion_item.classList.remove('acordion_item');
+            } else {
+                acordion_item.classList.add('acordion_item');
+            }
         });
 
         const hr = document.createElement('hr');
@@ -150,6 +150,10 @@ export class PromptJs {
         const iframe = document.createElement('iframe');
         iframe.classList.add('p');
         iframe.src = this.getVideo();
+        iframe.title = "YouTube video player";
+        iframe.frameBorder = 0;
+        iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+        iframe.allowFullscreen = true;
 
         acordion_item.append(p, a, a2, iframe);
         container.append(label, hr, acordion_item);

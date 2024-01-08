@@ -31,6 +31,8 @@ export const utils = {
 
     Tipo_objetos: (element, numero = 'videos') => {
 
+       
+
         switch (numero) {
             case "videos":
                 return new p.PromptVideos(element.titulo, element.descripcion, element.video);
