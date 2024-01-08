@@ -66,12 +66,23 @@
 
     grid-template-rows: 1fr;
     transition: 0.3s;
-
+    >* {
+        display: block;
+        opacity: 100%;
+        transition: 1s;
+    
+    }
 }
 
-#activar:checked~.acordion_item>* {
-    display: block;
-    opacity: 100%;
-    transition: 1s;
 
+
+.agrandar{
+    grid-template-rows: 1fr;
+    transition: 0.3s;
+    >* {
+        display: block;
+        opacity: 100%;
+        transition: 1s;
+    
+    }
 }

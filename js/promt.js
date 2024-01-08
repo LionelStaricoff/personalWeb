@@ -84,6 +84,73 @@ export const promptCv = {
 
 
 export class PromptJs {
+    constructor(titul, descripcio, githu, we, vide) {
+        const titulo = titul;
+        const descripcion = descripcio;
+        const github = githu;
+        const video = vide;
+        const web = we;
+
+        this.getTitulo = () => {
+            return titulo;
+        }
+        this.getDescripcion = () => {
+            return descripcion;
+        }
+        this.getGithub = () => {
+            return github;
+        }
+        this.getWeb = () => {
+            return web;
+        }
+        this.getVideo = () => {
+            return video;
+        }
+    }
+    agregarAlFront() {
+        const main = document.querySelector(".agregar");
+        main.innerHTML += this.armarPrompt();
+    }
+
+    armarPrompt() {
+        const container = document.createElement('div');
+        container.classList.add('acordion', 'desaparecer');
+
+        const label = document.createElement('label');
+        label.innerText = this.getTitulo();
+
+        const hr = document.createElement('hr');
+
+        const acordion_item = document.createElement('div');
+        acordion_item.classList('acordion_item');
+
+        const p = document.createElement('p');
+        p.classList('p');
+        p.innerText = this.getDescripcion();
+
+        const a = document.createElement('a');
+        a.href = this.getGithub();
+        a.classList('p');
+        a.target = '_blank';
+        a.innerText = this.getGithub();
+
+        const a2 = document.createElement('a');
+        a2.href = this.getWeb();
+        a2.classList('p');
+        a2.target = '_blank';
+        a2.innerText = this.getWeb();
+
+        const iframe = document.createElement('iframe');
+        iframe.classList('p');
+        iframe.src = this.getVideo();
+
+        acordion_item.append(p, a, a2, iframe);
+        container.append(label, hr, acordion_item);
+
+
+        return container;
+
+    }
 
 }
 
