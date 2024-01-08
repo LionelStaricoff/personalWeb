@@ -109,7 +109,7 @@ export class PromptJs {
     }
     agregarAlFront() {
         const main = document.querySelector(".agregar");
-        main.innerHTML += this.armarPrompt();
+        main.appendChild(this.armarPrompt());
     }
 
     armarPrompt() {
@@ -118,30 +118,37 @@ export class PromptJs {
 
         const label = document.createElement('label');
         label.innerText = this.getTitulo();
+        label.addEventListener('click', () => {
+           if( Array.from(acordion_item.classList).includes('acordion_item')){
+            acordion_item.classList.remove('acordion_item');
+           }else{
+            acordion_item.classList.add('acordion_item');
+           }
+        });
 
         const hr = document.createElement('hr');
 
         const acordion_item = document.createElement('div');
-        acordion_item.classList('acordion_item');
+        acordion_item.classList.add('acordion_item');
 
         const p = document.createElement('p');
-        p.classList('p');
+        p.classList.add('p');
         p.innerText = this.getDescripcion();
 
         const a = document.createElement('a');
         a.href = this.getGithub();
-        a.classList('p');
+        a.classList.add('p');
         a.target = '_blank';
         a.innerText = this.getGithub();
 
         const a2 = document.createElement('a');
         a2.href = this.getWeb();
-        a2.classList('p');
+        a2.classList.add('p');
         a2.target = '_blank';
         a2.innerText = this.getWeb();
 
         const iframe = document.createElement('iframe');
-        iframe.classList('p');
+        iframe.classList.add('p');
         iframe.src = this.getVideo();
 
         acordion_item.append(p, a, a2, iframe);
