@@ -67,21 +67,6 @@
 }
 
 
-#activar {
-    display: none;
-
-    &:checked~.acordion_item {
-        grid-template-rows: 1fr;
-        transition: 0.3s;
-        margin: 1em 0;
-
-        >* {
-            display: block;
-            opacity: 100%;
-            transition: 1s;
-        }
-    }
-}
 
 
 .agrandar {

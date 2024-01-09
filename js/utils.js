@@ -39,7 +39,7 @@ export const utils = {
             case "js":
                 return new p.PromptJs(element.titulo, element.descripcion, element.github ,element.web,element.video);
             case "java":
-                return new p.PromptJava(element.titulo, element.descripcion,element.github, element.video);
+                return new p.PromptJs(element.titulo, element.descripcion,element.github,"", element.video);
             default:
                 console.error('error archivo incorrectos');
         }
