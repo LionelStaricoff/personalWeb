@@ -4,9 +4,10 @@ export const impl = {
 
   modoBack: () => { utils.modBack(); },
 
-  clases: () => { 
+  clases: () => {
     utils.borrarTodo();
-    utils.leerJson(); },
+    utils.leerJson();
+  },
 
   clear: () => { utils.borrarTodo(); },
 
@@ -16,11 +17,13 @@ export const impl = {
 
   scroll: () => { utils.scrollFx(); },
 
-  js: () => { 
+  js: () => {
     utils.borrarTodo();
-    utils.leerJson('/json/js.json', 'js'); },
+    utils.leerJson('/json/js.json', 'js');
+  },
 
-  java: () => { 
+  java: () => {
     utils.borrarTodo();
-    utils.leerJson('/json/java.json', 'java'); }
+    utils.leerJson('/json/java.json', 'java');
+  }
 }

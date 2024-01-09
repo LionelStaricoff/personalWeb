@@ -1,19 +1,24 @@
+:root{
+    --prompt_fondo :rgba(0, 255, 255, 90%);
+    --prompt_fondo_box-shadow: rgb(0 0 10 /5);
+    --prompt_acordion_border-left:violet;
+    --hr:red;
+    --hr1:blue;
+    --hr2:green;
+    --prompt_a:black;
+}
+
 .acordion {
     width: 80%;
     max-width: 500px;
     padding: 1em;
     margin: 6em auto;
-    background-color: rgba(0, 255, 255, 90%);
-    box-shadow: 0 0 10px 3px rgb(0 0 10 /5);
+    background-color: var(--prompt_fondo);
+    box-shadow: 0 0 10px 3px var(--prompt_fondo_box-shadow);
     border-radius: 6px;
-    border-left: 4px solid violet;
+    border-left: 4px solid var(--prompt_acordion_border-left);
 
 
-
-    input {
-        display: none;
-
-    }
 
     label {
 
@@ -30,7 +35,7 @@
 
     hr {
         margin: 1em;
-        background: -moz-linear-gradient(right, red, blue, green);
+        background: -moz-linear-gradient(right,var(--hr) ,var(--hr1) ,var(--hr2) );
         height: 5px;
     }
 
@@ -46,7 +51,8 @@
         a {
             text-align: center;
             display: none;
-            margin-top: 1em;
+            margin: 1em 0;
+            background-color: var(--prompt_a);
         }
 
         iframe {
@@ -62,27 +68,17 @@
 }
 
 
-#activar:checked~.acordion_item {
 
+
+
+
+.agrandar {
     grid-template-rows: 1fr;
     transition: 0.3s;
+
     >* {
         display: block;
         opacity: 100%;
         transition: 1s;
-    
-    }
-}
-
-
-
-.agrandar{
-    grid-template-rows: 1fr;
-    transition: 0.3s;
-    >* {
-        display: block;
-        opacity: 100%;
-        transition: 1s;
-    
     }
 }

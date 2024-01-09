@@ -10,25 +10,25 @@
             "titulo": "Java | Back-end | Hotel Alura",
             "descripcion": "Una aplicación CRUD utilizando JDBC y Swing. Biblioteca C3PO para crear Pool de conexiones, base de datos MySql.",
             "github": "https://github.com/LionelStaricoff/hotel_alura_JDBC",
-            "video": "https://www.youtube.com/watch?v=9hOwqgyzieU"
+            "video": "https://www.youtube.com/embed/9hOwqgyzieU?si=3-AZ0AJkuGqT4e1y"
         },
         {
             "titulo": "Juego Pokemon.",
             "descripcion": "Juego conectado a la api-pokemon. Se realiza el front con la galeria swing.",
             "github": "https://github.com/LionelStaricoff/-api-pokemon/blob/main/README.md",
-            "video": "https://youtu.be/Ot3fFYolv6Y?si=EJnNb2-DHeccZTMR"
+            "video": "https://www.youtube.com/embed/Ot3fFYolv6Y?si=v3fDhaRrsf33dSG4"
         },
         {
             "titulo": "Hotel Alura",
             "descripcion": "Programa para hacer recervas para con coneccion a base de datos",
             "github": "https://github.com/LionelStaricoff/hotel_alura_JDBC/blob/main/README.md",
-            "video": "https://youtu.be/9hOwqgyzieU?si=Y-sM1jDT75RIPLg8"
+            "video": "https://www.youtube.com/embed/9hOwqgyzieU?si=vutnJOvXZ41GWntJ"
         },
         {
             "titulo": "api con spring boot",
             "descripcion": "Creando una API con java usando conexión con base de datos MySQL.",
             "github": "https://github.com/LionelStaricoff/api-rest-spring-boot/blob/master/README.md",
-            "video": "https://youtu.be/4H8pPRt9pyg?si=3TOw8obYf8IwNEZn"
+            "video": "https://www.youtube.com/embed/4H8pPRt9pyg?si=7KK-N0qL7rgsBb2i"
         }
     ]
 }

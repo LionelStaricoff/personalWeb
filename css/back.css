@@ -3,6 +3,15 @@
 
     --colorLetra: white;
 
+   /* variables prompt trabajos*/
+    --prompt_fondo :rgba(131, 144, 144, 0.9);
+    --prompt_a:white;
+    --prompt_fondo_box-shadow: var(--prompt_a);
+    --prompt_acordion_border-left:black;
+    --hr:var(--colorLetra);
+    --hr1:var(--colorLetra);
+    --hr2:var(--colorLetra);
+    
 
 
 .darckLigth {

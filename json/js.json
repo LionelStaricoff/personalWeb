@@ -6,35 +6,35 @@
             "descripcion": "Diviértete con este increíble juego para atrapar a tus pokemon favoritos.",
             "github": "https://github.com/LionelStaricoff/AtrapaPokemon",
             "web": "https://atrapapokemon.netlify.app/",
-            "video": "https://youtu.be/KQWHkBDeEuI?si=JqQbKNUKy0sr6NKK"
+            "video": "https://www.youtube.com/embed/KQWHkBDeEuI?si=KNJoZMKoUF2C8sRZ"
         },
         {
             "titulo": "Juego de adivinar el número",
             "descripcion": "Juego realizado en js, html y css",
             "github": "https://github.com/LionelStaricoff/Juego-de-adivinar-el-n-mero",
             "web": "https://lionelstaricoff.github.io/Juego-de-adivinar-el-n-mero/",
-            "video": "https://youtu.be/kiGmv0H6KMs?si=CO2W_-gip9MMPm8X"
+            "video": "https://www.youtube.com/embed/kiGmv0H6KMs?si=sq_NHIJp0nHtjZEN"
         },
         {
             "titulo": "Encriptador-de-datos",
             "descripcion": "Puedes mandar mensajes encriptados y que otros los desencripten usando esta web:",
             "github": "https://github.com/LionelStaricoff/Encriptador-de-datos/blob/main/README.md",
             "web": "https://lionelstaricoff.github.io/Encriptador-de-datos/",
-            "video": "https://youtu.be/qppeghylp10?si=VrIvfdSzvUXRsmkV"
+            "video": "https://www.youtube.com/embed/qppeghylp10?si=mmIwJh2zgcSqSNGs"
         },
         {
             "titulo": "pokedex",
             "descripcion": "Realizando una pokedex con html, css y javascrip.",
             "github": "https://github.com/LionelStaricoff/pokedex",
             "web": "https://atrapapokemon.netlify.app/",
-            "video": "https://youtu.be/wSqTXF_UCpc?si=c4U2Vhvt89NObgJX"
+            "video": "https://www.youtube.com/embed/wSqTXF_UCpc?si=L-4jP7W8Bt3--bL8" 
         },
         {
             "titulo": "calculadora",
             "descripcion": "Poyecto realizado en HTML, css Y Javascript. Cada funcion estan colocados en el html.",
             "github": "https://github.com/LionelStaricoff/calculadora",
             "web": "https://lionelstaricoff.github.io/calculadora/",
-            "video": "https://www.youtube.com/watch?v=9r3HJD9F1d0"
+            "video": "https://www.youtube.com/embed/9r3HJD9F1d0?si=a_yALopC7Ki_-GGr"
         }
     ]
 }
