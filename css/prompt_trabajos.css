@@ -72,12 +72,18 @@
 .agrandar {
     grid-template-rows: 1fr;
     transition: 0.3s;
+    text-align: center;
 
     a {
         color: var(--hr1);
         text-decoration: none;
         margin: .5em 0;
+    }
 
+    iframe {
+        width: min(100%, 450px);
+        aspect-ratio: 16/9;
+        align-self: center;
     }
 
     >* {
