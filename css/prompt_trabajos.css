@@ -1,11 +1,11 @@
-:root{
-    --prompt_fondo :rgba(0, 255, 255, 90%);
+:root {
+    --prompt_fondo: rgba(0, 255, 255, 90%);
     --prompt_fondo_box-shadow: rgb(0 0 10 /5);
-    --prompt_acordion_border-left:violet;
-    --hr:red;
-    --hr1:blue;
-    --hr2:green;
-    --prompt_a:black;
+    --prompt_acordion_border-left: violet;
+    --hr: red;
+    --hr1: blue;
+    --hr2: green;
+
 }
 
 .acordion {
@@ -35,7 +35,7 @@
 
     hr {
         margin: 1em;
-        background: -moz-linear-gradient(right,var(--hr) ,var(--hr1) ,var(--hr2) );
+        background: -moz-linear-gradient(right, var(--hr), var(--hr1), var(--hr2));
         height: 5px;
     }
 
@@ -51,8 +51,7 @@
         a {
             text-align: center;
             display: none;
-            margin: 1em 0;
-            background-color: var(--prompt_a);
+
         }
 
         iframe {
@@ -68,13 +67,33 @@
 }
 
 
+#activar {
+    display: none;
 
+    &:checked~.acordion_item {
+        grid-template-rows: 1fr;
+        transition: 0.3s;
+        margin: 1em 0;
 
+        >* {
+            display: block;
+            opacity: 100%;
+            transition: 1s;
+        }
+    }
+}
 
 
 .agrandar {
     grid-template-rows: 1fr;
     transition: 0.3s;
+
+    a {
+        color: var(--hr1);
+        text-decoration: none;
+        margin: .5em 0;
+
+    }
 
     >* {
         display: block;
