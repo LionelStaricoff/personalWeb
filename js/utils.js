@@ -35,7 +35,7 @@ export const utils = {
 
         switch (numero) {
             case "videos":
-                return new p.PromptVideos(element.titulo, element.descripcion, element.video);
+                return new p.PromptJs(element.titulo, element.descripcion,'','', element.video);
             case "js":
                 return new p.PromptJs(element.titulo, element.descripcion, element.github ,element.web,element.video);
             case "java":
@@ -85,7 +85,7 @@ export const utils = {
 
     scrollFx: () => {
         const divs = document.querySelectorAll(".desaparecer");
-        divs.forEach(function (div) {
+        divs.forEach( div => {
             const rect = div.getBoundingClientRect();
             const windowHeight = window.innerHeight || document.documentElement.clientHeight;
             if (rect.top < windowHeight && rect.bottom >= 0) {

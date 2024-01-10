@@ -4,6 +4,8 @@
 @import url('cv.css');
 @import url('prompt_trabajos.css');
 @import url('scroll.css');
+@import url('menu.css');
+
 :root {
     --colorLetra: yellow;
 }
@@ -139,123 +141,135 @@ body {
             list-style-type: none;
             overflow: auto;
 
+            @media(width < 406px) {
+                float: right;
+                margin: 5px 10px;
+                width: 5em;
+                height: 5em;
+                background-image: url('../img/lion.png');
+                background-size: 5em;
+                background-repeat: no-repeat;
+                background-position: center;
 
             li {
-                height: 2.5em;
-                width: 2.5em;
-                background-repeat: no-repeat;
-                background-size: 1100%;
-                background-image: url('../img/icons.png');
-                margin-top: .5em;
+                display: none;
+            }
+        }
 
-                a {
-                    width: 100%;
-                    height: 100%;
-                    display: inline-block;
-                }
+        li {
+            height: 2.5em;
+            width: 2.5em;
+            background-repeat: no-repeat;
+            background-size: 1100%;
+            background-image: url('../img/icons.png');
+            margin-top: .5em;
 
-
-                @media (max-width: 400px) {
-                    margin: 0.5em;
-                }
-
+            a {
+                width: 100%;
+                height: 100%;
+                display: inline-block;
             }
 
 
-            li:first-child {
-                background-position: -235px 1px;
-                content: 'Portfolios Webs';
-
-                &:hover {
-                    background-position: -235px -44px;
-                }
-            }
-
-            li:nth-child(2) {
-                background-position: -151px 1px;
-                content: 'Linkedin';
-
-                &:hover {
-                    background-position: -151px -44px;
-
-                }
-
-            }
-
-            li:nth-child(3) {
-                background-position: -275px 1px;
-                content: 'Curriculum';
-
-                &:hover {
-                    background-position: -275px -44px;
-
-                }
-            }
-
-            li:nth-child(4) {
-                background-position: -75px -44px;
-                content: 'Github';
-
-                &:hover {
-                    background-position: -75px 1px;
-
-                }
-            }
-
-            li:nth-child(5) {
-                background-position: -191px 1px;
-                content: 'Clases';
-
-                &:hover {
-                    background-position: -191px -44px;
-
-                }
-            }
-
-            li:nth-child(6) {
-                background-position: -315px 1px;
-                content: 'proyectos';
-
-                &:hover {
-                    background-position: -315px -44px;
-
-                }
-            }
-
-            li:nth-child(7) {
-                background-position: -399px 1px;
-                content: 'You Tube';
-
-                &:hover {
-                    background-position: -399px -44px;
-
-                }
-            }
-
-            li:nth-child(8) {
-                background-position: -358px 1px;
-
-                content: 'WhatsApp';
-
-                &:hover {
-                    background-position: -358px -44px;
-
-                }
-            }
-
-            li:last-child {
-                background-position: -31px 1px;
-                content: 'Correo';
-
-                &:hover {
-                    background-position: -31px -44px;
-
-                }
+            @media (max-width: 400px) {
+                margin: 0.5em;
             }
 
         }
-    }
 
+
+        li:first-child {
+            background-position: -235px 1px;
+            content: 'Portfolios Webs';
+
+            &:hover {
+                background-position: -235px -44px;
+            }
+        }
+
+        li:nth-child(2) {
+            background-position: -151px 1px;
+            content: 'Linkedin';
+
+            &:hover {
+                background-position: -151px -44px;
+
+            }
+
+        }
+
+        li:nth-child(3) {
+            background-position: -275px 1px;
+            content: 'Curriculum';
+
+            &:hover {
+                background-position: -275px -44px;
+
+            }
+        }
+
+        li:nth-child(4) {
+            background-position: -75px -44px;
+            content: 'Github';
+
+            &:hover {
+                background-position: -75px 1px;
+
+            }
+        }
+
+        li:nth-child(5) {
+            background-position: -191px 1px;
+            content: 'Clases';
+
+            &:hover {
+                background-position: -191px -44px;
+
+            }
+        }
+
+        li:nth-child(6) {
+            background-position: -315px 1px;
+            content: 'proyectos';
+
+            &:hover {
+                background-position: -315px -44px;
+
+            }
+        }
+
+        li:nth-child(7) {
+            background-position: -399px 1px;
+            content: 'You Tube';
+
+            &:hover {
+                background-position: -399px -44px;
+
+            }
+        }
+
+        li:nth-child(8) {
+            background-position: -358px 1px;
+            content: 'WhatsApp';
+
+            &:hover {
+                background-position: -358px -44px;
+
+            }
+        }
+
+        li:last-child {
+            background-position: -31px 1px;
+            content: 'Correo';
+
+            &:hover {
+                background-position: -31px -44px;
+
+            }
+        }
+
+    }
+}
 
 
 }

@@ -1,0 +1,20 @@
+.menu-expanded {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsla(0, 0%, 100%,10%);
+    mix-blend-mode: color-dodge;
+    z-index: 10;
+   
+    
+    li{
+        display: block;
+    }
+}

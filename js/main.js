@@ -14,13 +14,25 @@ try {
   buttons[5].addEventListener('click', () => { l.impl.java(); });
   buttons[8].addEventListener('click', () => { l.impl.email(); });
 
+  const menu = document.querySelector('#menu');
+  menu.addEventListener('click', () => {
+    menu.classList.add('menu-expanded');
+    
+    buttons.forEach(li => {
+      li.addEventListener('click', () => {
+        console.log(menu);
+        menu.classList.remove('menu-expanded');
+      });
+    });
+  });
+
+
+ 
+
   document.addEventListener("scroll", () => { l.impl.scroll(); });
 } catch (error) {
   console.error(error);
 }
-
-
-
 
 
 
