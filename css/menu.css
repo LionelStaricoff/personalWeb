@@ -13,6 +13,7 @@
     mix-blend-mode: color-dodge;
     z-index: 10;
     background-image: none;
+    animation: cargaDesdeAbajoDerecha 1s ease-in-out;
     &:hover{
         transform: scale(1);
     }
@@ -20,5 +21,19 @@
     li{
         display: block;
         transform: scale(2);
+      
     }
+   
 }
+
+@keyframes cargaDesdeAbajoDerecha {
+    0% {
+      transform: translate(100%, 100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+  }
+  
