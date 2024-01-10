@@ -25,5 +25,9 @@ export const impl = {
   java: () => {
     utils.borrarTodo();
     utils.leerJson('/json/java.json', 'java');
-  }
+  },
+
+  menuOpen:(event)=>{ utils.menuOpen(event);},
+
+  menuClose:(event)=>{ utils.menuClose(event);}
 }

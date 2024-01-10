@@ -98,5 +98,20 @@ export const utils = {
 
     js: () => { alert('js'); },
 
-    java: () => {alert('java'); }
+    java: () => {alert('java'); },
+
+    menuOpen: (event)=>{
+        const menu = document.querySelector('#menu');
+        if (window.innerWidth < 406) menu.classList.add('menu-expanded');
+        event.stopPropagation();
+    },
+
+    menuClose:(event)=>{
+        const menu = document.querySelector('#menu');
+        if (Array.from(menu.classList).includes('menu-expanded')) {
+            event.preventDefault();
+            event.stopPropagation();
+            menu.classList.remove('menu-expanded');
+            }
+    }
 }
