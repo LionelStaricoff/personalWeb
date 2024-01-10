@@ -150,6 +150,11 @@ body {
                 background-size: 5em;
                 background-repeat: no-repeat;
                 background-position: center;
+             
+                &:hover{
+                    transform: scale(0.9);
+                }
+            
 
             li {
                 display: none;

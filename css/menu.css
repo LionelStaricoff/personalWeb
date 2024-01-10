@@ -12,9 +12,13 @@
     background-color: hsla(0, 0%, 100%,10%);
     mix-blend-mode: color-dodge;
     z-index: 10;
-   
-    
+    background-image: none;
+    &:hover{
+        transform: scale(1);
+    }
+
     li{
         display: block;
+        transform: scale(2);
     }
 }

@@ -17,7 +17,7 @@ try {
   const menu = document.querySelector('#menu');
   menu.addEventListener('click', () => {
     menu.classList.add('menu-expanded');
-    
+   
     buttons.forEach(li => {
       li.addEventListener('click', () => {
         console.log(menu);
