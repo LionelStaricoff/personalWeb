@@ -15,15 +15,12 @@ try {
   buttons[8].addEventListener('click', () => { l.impl.email(); });
 
   const menu = document.querySelector('#menu');
-  menu.addEventListener('click', () => {
-    menu.classList.add('menu-expanded');
-  });
+  menu.addEventListener('click', () => {if (window.innerWidth < 406) menu.classList.add('menu-expanded');});
 
 
   buttons.forEach(li => {
     li.addEventListener('click', () => {
       if (Array.from(menu.classList).includes('menu-expanded')) {
-      console.log(menu);
       event.stopPropagation();
       menu.classList.remove('menu-expanded');
       }
