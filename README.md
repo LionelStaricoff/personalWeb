@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Título de tu página</title>
-    <link rel="stylesheet" type="text/css" href="css/mk.css">
+    <link rel="stylesheet" type="text/css" href="/css/mk.css">
 </head>
 <body>
     
