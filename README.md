@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="css/mk.css">
+<link rel="stylesheet" type="text/css" href="./css/mk.css">
 
 
 <h1 class="h1"> personal Web </h1>
