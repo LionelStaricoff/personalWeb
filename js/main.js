@@ -1,4 +1,4 @@
-import * as l from '/js/impl.js';
+import * as l from '../js/impl.js';
 
 try {
   const luz = document.querySelector('#ligth');

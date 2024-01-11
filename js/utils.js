@@ -1,4 +1,4 @@
-import * as p from './promt.js';
+import * as p from '../js/promt.js';
 
 export const utils = {
 
