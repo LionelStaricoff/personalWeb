@@ -112,6 +112,12 @@ export const utils = {
             event.preventDefault();
             event.stopPropagation();
             menu.classList.remove('menu-expanded');
+            const a = event.target;
+            console.log(a.href != '');
+            console.log(a.href);
+            if(a.href != ''){
+            window.open(a.getAttribute('href'), '_blank');
+            }
             }
     }
 }
