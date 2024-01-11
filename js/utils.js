@@ -113,9 +113,8 @@ export const utils = {
             event.stopPropagation();
             menu.classList.remove('menu-expanded');
             const a = event.target;
-            console.log(a.href != '');
-            console.log(a.href);
-            if(a.href != ''){
+
+            if(a.getAttribute('href') !== '#nombre' && a.href != '' && a.tagName === 'A' ){
             window.open(a.getAttribute('href'), '_blank');
             }
             }
