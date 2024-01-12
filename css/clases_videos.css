@@ -3,10 +3,10 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
- 
+    width: min(100%, max-content);
 
     .videos {
-        width: min(100%,25em);
+        width: min(100%, 25em);
         height: 25em;
         border: solid 5px var(--colorLetra);
         border-radius: 5px;
@@ -14,21 +14,23 @@
         place-items: center;
         margin: 1em;
 
-        h2{
+        h2 {
             color: var(--colorLetra);
             text-align: center;
             border-bottom: 2px solid var(--colorLetra);
+
             &:first-letter {
                 text-transform: uppercase;
-              }
+            }
         }
 
-        p{
+        p {
             color: var(--colorLetra);
-            margin: 0 .5em ;
+            margin: 0 .5em;
+
             &:first-letter {
                 text-transform: uppercase;
-              }
+            }
         }
 
         iframe {
@@ -40,4 +42,3 @@
     }
 
 }
-

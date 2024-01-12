@@ -10,7 +10,7 @@
 
 .acordion {
     width: 80%;
-    max-width: 500px;
+    max-width: min(100%, 500px);
     padding: 1em;
     margin: 6em auto;
     background-color: var(--prompt_fondo);
@@ -73,6 +73,7 @@
     grid-template-rows: 1fr;
     transition: 0.3s;
     text-align: center;
+    width: min(100%, 500px);
 
     a {
         color: var(--hr1);

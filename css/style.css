@@ -96,6 +96,9 @@ body {
                 grid-area: foto;
                 margin-right: .5em;
 
+                @media (width < 406px ){
+                    width: 6em;
+                }
                 &:hover {
                     transform: scale(.9);
                     filter: drop-shadow(5px 5px 5px #000);
