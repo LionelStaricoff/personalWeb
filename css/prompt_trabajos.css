@@ -78,6 +78,7 @@
         color: var(--hr1);
         text-decoration: none;
         margin: .5em 0;
+        word-wrap: break-word;
     }
 
     iframe {
