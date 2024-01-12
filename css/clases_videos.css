@@ -3,7 +3,11 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: min(100%, max-content);
+    width: 100%;
+
+    /* @media (width < 406px) {
+        justify-content: initial;
+    } */
 
     .videos {
         width: min(100%, 25em);

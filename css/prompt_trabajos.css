@@ -12,12 +12,12 @@
     width: 80%;
     max-width: min(100%, 500px);
     padding: 1em;
-    margin: 6em auto;
+    margin: 6em 0;
     background-color: var(--prompt_fondo);
     box-shadow: 0 0 10px 3px var(--prompt_fondo_box-shadow);
     border-radius: 6px;
     border-left: 4px solid var(--prompt_acordion_border-left);
-
+    margin: 2em auto;
 
 
     label {
@@ -73,7 +73,9 @@
     grid-template-rows: 1fr;
     transition: 0.3s;
     text-align: center;
-    width: min(100%, 500px);
+    width: 80%;
+    padding: 0;
+  margin:0 auto !important;
 
     a {
         color: var(--hr1);
@@ -92,5 +94,14 @@
         display: block;
         opacity: 100%;
         transition: 1s;
+
     }
+}
+
+.acordion_agrandar {
+    @media(width <406px) {
+        margin: 2em 0;
+        width: 100vw;
+    }
+
 }

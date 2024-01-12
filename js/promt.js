@@ -122,9 +122,11 @@ export class PromptJs {
             if (Array.from(acordion_item.classList).includes('acordion_item')) {
                 acordion_item.classList.remove('acordion_item');
                 acordion_item.classList.add('agrandar');
+                container.classList.add('acordion_agrandar');
             } else {
                 acordion_item.classList.add('acordion_item');
                 acordion_item.classList.remove('agrandar');
+                container.classList.remove('acordion_agrandar');
             }
         });
 
