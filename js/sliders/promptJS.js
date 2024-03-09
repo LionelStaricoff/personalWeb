@@ -84,5 +84,3 @@ export class PromptJs2 {
     }
 
 }
-
-

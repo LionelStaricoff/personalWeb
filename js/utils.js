@@ -114,8 +114,10 @@ export const utils = {
             menu.classList.remove('menu-expanded');
             const a = event.target;
            
-            if(a.getAttribute('href') !== '#nombre' && a.href != '' && a.tagName === 'A'){
-            window.open(a.getAttribute('href'), '_blank');
+            if(a.getAttribute('href') !== '#nombre' && a.href != '' && a.tagName === 'A' ){
+            if( a.getAttribute('href') !='#cv'){
+                window.open(a.getAttribute('href'), '_blank');
+            }
             }
             }
     }
